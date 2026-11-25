@@ -1,0 +1,2508 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProVerde | Consultoria Estratégica em Sustentabilidade &amp; Transformação ESG</title>
+  <meta name="description" content="A ProVerde orienta e capacita médias e grandes empresas na integração prática de ESG, revertendo cenários de escassez em vantagem competitiva, Crédito Verde e governança GRI, SASB e ISSB." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'Inter', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            obsidian: {
+              950: '#05090A',
+              900: '#081012',
+              800: '#0A1618',
+              700: '#0F2224',
+            },
+            pine: {
+              950: '#081F1C',
+              900: '#0D2B27',
+              800: '#14453E',
+              700: '#1C5E54',
+            },
+            proverde: {
+              600: '#1C786D',
+              500: '#238576',
+              400: '#32A896',
+              300: '#4CE8D4',
+              200: '#7AF5E5',
+            },
+            silver: {
+              100: '#EBF3F1',
+              200: '#D9E2E7',
+              400: '#9BA8B0',
+              600: '#64727A',
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  
+</head>
+<body class="selection:bg-proverde-300 selection:text-obsidian-950">
+
+  <svg width="0" height="0" class="absolute pointer-events-none opacity-0" aria-hidden="true">
+    <defs>
+      <linearGradient id="pv-crest-silver" x1="12%" y1="18%" x2="94%" y2="76%">
+        <stop offset="0%" stop-color="#C8D3DA" />
+        <stop offset="32%" stop-color="#94A1AA" />
+        <stop offset="68%" stop-color="#647179" />
+        <stop offset="100%" stop-color="#313B41" />
+      </linearGradient>
+
+      <linearGradient id="pv-belly-petrol" x1="28%" y1="42%" x2="96%" y2="66%">
+        <stop offset="0%" stop-color="#042325" />
+        <stop offset="35%" stop-color="#073D40" />
+        <stop offset="72%" stop-color="#127D80" />
+        <stop offset="93%" stop-color="#22B9B7" />
+        <stop offset="100%" stop-color="#2AE0DA" />
+      </linearGradient>
+
+      <linearGradient id="pv-upper-emerald" x1="10%" y1="94%" x2="94%" y2="10%">
+        <stop offset="0%" stop-color="#14493F" />
+        <stop offset="34%" stop-color="#247869" />
+        <stop offset="66%" stop-color="#37AD99" />
+        <stop offset="88%" stop-color="#55EBDA" />
+        <stop offset="100%" stop-color="#7CFFF0" />
+      </linearGradient>
+
+      <radialGradient id="pv-apex-glow" cx="89%" cy="11%" r="36%">
+        <stop offset="0%" stop-color="#8FFFF2" stop-opacity="0.65" />
+        <stop offset="55%" stop-color="#4CE8D4" stop-opacity="0.18" />
+        <stop offset="100%" stop-color="#4CE8D4" stop-opacity="0" />
+      </radialGradient>
+
+      <linearGradient id="pv-bottom-pine" x1="12%" y1="58%" x2="92%" y2="48%">
+        <stop offset="0%" stop-color="#236658" />
+        <stop offset="36%" stop-color="#4CA893" />
+        <stop offset="72%" stop-color="#246E5F" />
+        <stop offset="100%" stop-color="#0F362E" />
+      </linearGradient>
+
+      <linearGradient id="pv-text-pro" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#FFFFFF" />
+        <stop offset="56%" stop-color="#D9E2E7" />
+        <stop offset="100%" stop-color="#96A3AB" />
+      </linearGradient>
+
+      <linearGradient id="pv-text-verde" x1="0%" y1="10%" x2="100%" y2="90%">
+        <stop offset="0%" stop-color="#57E2CC" />
+        <stop offset="52%" stop-color="#32A896" />
+        <stop offset="100%" stop-color="#1C786D" />
+      </linearGradient>
+
+      <filter id="pv-3d-relief" x="-18%" y="-18%" width="136%" height="136%">
+        <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#020506" flood-opacity="0.65" />
+        <feDropShadow dx="3" dy="-2" stdDeviation="5" flood-color="#4CE8D4" flood-opacity="0.22" />
+      </filter>
+
+      <g id="proverde-emblem-3d">
+        <circle cx="152" cy="48" r="54" fill="url(#pv-apex-glow)" />
+
+        <g class="pv-blade-top" filter="url(#pv-3d-relief)">
+          <path
+            d="M 46 98 C 52 56, 90 36, 134 35 C 152 35, 164 30, 172 22 C 156 44, 132 53, 102 58 C 74 63, 56 76, 46 98 Z"
+            fill="url(#pv-crest-silver)"
+          />
+          <path
+            d="M 47 95 C 54 57, 90 37, 134 36 C 151 36, 163 31, 171 23"
+            fill="none"
+            stroke="#DCE5EA"
+            stroke-opacity="0.62"
+            stroke-width="1.25"
+            stroke-linecap="round"
+          />
+        </g>
+
+        <g class="pv-blade-mid" filter="url(#pv-3d-relief)">
+          <path
+            d="M 54 134 C 72 112, 132 62, 178 18 C 178 66, 166 108, 140 125 C 114 141, 80 138, 54 134 Z"
+            fill="url(#pv-belly-petrol)"
+          />
+          <path
+            d="M 178 18 C 178 66, 166 108, 140 125 C 122 136, 98 138, 74 136"
+            fill="none"
+            stroke="#4BF2E6"
+            stroke-opacity="0.48"
+            stroke-width="1.2"
+            stroke-linecap="round"
+          />
+
+          <path
+            d="M 28 174 C 33 122, 62 79, 108 67 C 142 58, 164 42, 178 18 C 160 58, 132 90, 92 112 C 58 130, 38 148, 28 174 Z"
+            fill="url(#pv-upper-emerald)"
+          />
+          <path
+            d="M 34 162 C 48 138, 82 118, 118 95 C 148 74, 165 46, 178 18"
+            fill="none"
+            stroke="#82FFF1"
+            stroke-opacity="0.52"
+            stroke-width="1.35"
+            stroke-linecap="round"
+          />
+        </g>
+
+        <g class="pv-blade-bot" filter="url(#pv-3d-relief)">
+          <path
+            d="M 32 185 C 44 155, 72 146, 108 145 C 134 144, 152 135, 164 118 C 153 151, 126 169, 92 168 C 62 167, 44 172, 32 185 Z"
+            fill="url(#pv-bottom-pine)"
+          />
+          <path
+            d="M 34 182 C 46 155, 73 146, 108 145 C 134 144, 151 135, 163 119"
+            fill="none"
+            stroke="#6FD4BE"
+            stroke-opacity="0.45"
+            stroke-width="1.15"
+            stroke-linecap="round"
+          />
+        </g>
+      </g>
+
+     
+      <g id="proverde-logo-complete">
+        <use href="#proverde-emblem-3d" x="0" y="0" width="200" height="200" />
+        <text
+          x="212"
+          y="136"
+          font-family="'Plus Jakarta Sans', 'Inter', sans-serif"
+          font-size="106"
+          font-weight="700"
+          letter-spacing="-3.2"
+          filter="url(#pv-3d-relief)"
+        >
+          <tspan fill="url(#pv-text-pro)">Pro</tspan><tspan fill="url(#pv-text-verde)">Verde</tspan>
+        </text>
+      </g>
+    </defs>
+  </svg>
+
+
+  <div class="bg-obsidian-950 text-silver-200 border-b border-proverde-300/15 text-xs relative z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-[40px] py-1.5 flex flex-wrap items-center justify-between gap-3">
+      <!-- Indicador Pulsante Ao Vivo -->
+      <div class="flex items-center gap-2.5">
+        <span class="relative flex h-2.5 w-2.5 shrink-0">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-proverde-300 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-proverde-300"></span>
+        </span>
+        <span class="text-[11px] sm:text-xs font-medium text-silver-100">
+          <strong class="text-proverde-300 font-semibold">Radar ESG 2026:</strong> Conformidade IFRS S1/S2, GRI &amp; Linhas de Crédito Verde
+        </span>
+      </div>
+
+      
+      <div class="flex items-center gap-3 sm:gap-5 ml-auto">
+        <a href="#simulador" class="hidden sm:inline-flex items-center gap-1.5 text-proverde-300 hover:text-proverde-200 font-semibold transition-colors">
+          <i data-lucide="gauge" class="w-3.5 h-3.5"></i>
+          <span>Simulador de Maturidade ESG</span>
+        </a>
+
+        <span class="hidden sm:inline-block h-3.5 w-px bg-white/15"></span>
+
+        <button
+          type="button"
+          onclick="openSolutionModal(3)"
+          class="hidden md:inline-flex items-center gap-1.5 text-silver-400 hover:text-white transition-colors"
+        >
+          <i data-lucide="shield-check" class="w-3.5 h-3.5 text-proverde-400"></i>
+          <span>GRI · SASB · ISSB</span>
+        </button>
+
+        <button
+          type="button"
+          id="contrast-toggle-btn"
+          onclick="toggleHighContrast()"
+          class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-[11px] text-silver-200 transition-colors"
+          aria-pressed="false"
+          title="Alternar modo de alto contraste"
+        >
+          <i data-lucide="sun-moon" class="w-3.5 h-3.5 text-proverde-300"></i>
+          <span>Contraste</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <header id="main-navbar" class="sticky top-0 z-40 bg-obsidian-950/85 backdrop-blur-xl border-b border-proverde-300/20 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 sm:h-[86px] flex items-center justify-between gap-4 relative">
+
+      <a href="#inicio" class="pv-brand-lockup inline-flex items-center gap-2.5 sm:gap-3 focus:outline-none group shrink-0" aria-label="ProVerde — Página Inicial">
+        <svg class="h-[38px] w-[38px] sm:h-[48px] sm:w-[48px] shrink-0 overflow-visible" viewBox="0 0 200 200" role="img" aria-label="Emblema 3D Oficial ProVerde">
+          <use href="#proverde-emblem-3d"></use>
+        </svg>
+        <div class="flex flex-col justify-center">
+          <span class="font-display text-[24px] sm:text-[30px] font-bold tracking-[-0.035em] leading-none flex items-center select-none">
+            <span class="pv-wordmark-pro">Pro</span><span class="pv-wordmark-verde">Verde</span>
+          </span>
+          <span class="text-[9.5px] sm:text-[10px] uppercase tracking-[0.22em] text-silver-400 font-semibold mt-1 group-hover:text-proverde-300 transition-colors">
+            Consultoria &amp; Transformação ESG
+          </span>
+        </div>
+      </a>
+
+      <nav id="desktop-nav" class="hidden lg:flex items-center gap-1 xl:gap-2 relative py-2" aria-label="Navegação Principal">
+        <!-- Barra Luminosa Deslizante -->
+        <span id="nav-active-indicator" class="pointer-events-none absolute bottom-0 h-[2.5px] rounded-full bg-gradient-to-r from-proverde-400 via-proverde-300 to-silver-100 shadow-[0_0_12px_#4CE8D4] opacity-100" style="left: 12px; width: 52px;"></span>
+
+        <a href="#inicio" data-nav-target="inicio" class="nav-item px-3.5 py-2 text-sm font-medium text-white hover:text-proverde-300 transition-colors">
+          Início
+        </a>
+
+        <a href="#a-proverde" data-nav-target="a-proverde" class="nav-item px-3.5 py-2 text-sm font-medium text-silver-200 hover:text-proverde-300 transition-colors">
+          A ProVerde
+        </a>
+
+        <div class="mega-dropdown-trigger relative" id="solucoes-dropdown-wrap">
+          <button
+            type="button"
+            onclick="toggleMegaDropdown(event)"
+            data-nav-target="solucoes"
+            class="nav-item px-3.5 py-2 text-sm font-medium text-silver-200 hover:text-proverde-300 transition-colors inline-flex items-center gap-1.5 focus:outline-none"
+            aria-expanded="false"
+          >
+            <span>Soluções ESG</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-proverde-300 transition-transform duration-200"></i>
+          </button>
+
+          <div class="mega-dropdown-panel absolute left-1/2 -translate-x-1/2 top-full pt-4 w-[680px] z-50">
+            <div class="pv-gradient-card-dark rounded-3xl p-6 backdrop-blur-2xl grid grid-cols-12 gap-5">
+              <!-- Lista dos 4 Pilares -->
+              <div class="col-span-8 grid grid-cols-2 gap-3">
+                <button type="button" onclick="closeMegaDropdown(); openSolutionModal(0)" class="text-left p-3.5 rounded-2xl bg-white/[0.03] hover:bg-proverde-500/15 border border-white/5 hover:border-proverde-300/35 transition-all group">
+                  <div class="flex items-center justify-between mb-1.5">
+                    <span class="text-xs font-display font-extrabold text-proverde-300">01 · CRISE &amp; ESCASSEZ</span>
+                    <i data-lucide="zap" class="w-4 h-4 text-proverde-300"></i>
+                  </div>
+                  <p class="font-display font-bold text-xs text-white group-hover:text-proverde-200">Diagnóstico Rápido ESG</p>
+                  <p class="text-[11px] text-silver-400 mt-1 leading-snug">Metodologia própria para reverter vulnerabilidades em 15 dias.</p>
+                </button>
+
+                <button type="button" onclick="closeMegaDropdown(); openSolutionModal(1)" class="text-left p-3.5 rounded-2xl bg-white/[0.03] hover:bg-proverde-500/15 border border-white/5 hover:border-proverde-300/35 transition-all group">
+                  <div class="flex items-center justify-between mb-1.5">
+                    <span class="text-xs font-display font-extrabold text-proverde-300">02 · HANDS-ON B2B</span>
+                    <i data-lucide="sliders-horizontal" class="w-4 h-4 text-proverde-300"></i>
+                  </div>
+                  <p class="font-display font-bold text-xs text-white group-hover:text-proverde-200">Adequação Financeira &amp; Operacional</p>
+                  <p class="text-[11px] text-silver-400 mt-1 leading-snug">Projetos viáveis calibrados para médias e grandes empresas.</p>
+                </button>
+
+                <button type="button" onclick="closeMegaDropdown(); openSolutionModal(2)" class="text-left p-3.5 rounded-2xl bg-white/[0.03] hover:bg-proverde-500/15 border border-white/5 hover:border-proverde-300/35 transition-all group">
+                  <div class="flex items-center justify-between mb-1.5">
+                    <span class="text-xs font-display font-extrabold text-proverde-300">03 · CAPITAL VERDE</span>
+                    <i data-lucide="landmark" class="w-4 h-4 text-proverde-300"></i>
+                  </div>
+                  <p class="font-display font-bold text-xs text-white group-hover:text-proverde-200">Desbloqueio de Crédito Verde</p>
+                  <p class="text-[11px] text-silver-400 mt-1 leading-snug">Dossiês e KPIs auditáveis exigidos por bancos e investidores.</p>
+                </button>
+
+                <button type="button" onclick="closeMegaDropdown(); openSolutionModal(3)" class="text-left p-3.5 rounded-2xl bg-white/[0.03] hover:bg-proverde-500/15 border border-white/5 hover:border-proverde-300/35 transition-all group">
+                  <div class="flex items-center justify-between mb-1.5">
+                    <span class="text-xs font-display font-extrabold text-proverde-300">04 · COMPLIANCE</span>
+                    <i data-lucide="file-check-2" class="w-4 h-4 text-proverde-300"></i>
+                  </div>
+                  <p class="font-display font-bold text-xs text-white group-hover:text-proverde-200">Frameworks GRI, SASB &amp; ISSB</p>
+                  <p class="text-[11px] text-silver-400 mt-1 leading-snug">Relatórios transparentes contra riscos de greenwashing.</p>
+                </button>
+              </div>
+
+              <!-- Card Destaque Lateral com o Emblema Oficial 3D -->
+              <div class="col-span-4 rounded-2xl p-4 bg-gradient-to-br from-pine-800/80 via-pine-900/90 to-obsidian-950 border border-proverde-300/30 flex flex-col justify-between">
+                <div class="space-y-2.5">
+                  <svg class="w-12 h-12" viewBox="0 0 200 200" aria-hidden="true">
+                    <use href="#proverde-emblem-3d"></use>
+                  </svg>
+                  <p class="font-display font-bold text-sm text-white leading-snug">Descubra seu Índice de Resiliência ESG</p>
+                  <p class="text-[11px] text-silver-200/80 leading-relaxed">Simule em 60 segundos a prontidão da sua operação para regulação e linhas verdes.</p>
+                </div>
+                <a href="#simulador" onclick="closeMegaDropdown()" class="mt-3 inline-flex items-center justify-between px-3.5 py-2 rounded-xl bg-proverde-300 text-obsidian-950 font-display font-bold text-xs hover:brightness-105 transition-all">
+                  <span>Abrir Simulador</span>
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#compromissos" data-nav-target="compromissos" class="nav-item px-3.5 py-2 text-sm font-medium text-silver-200 hover:text-proverde-300 transition-colors">
+          Diferenciais E·S·G
+        </a>
+
+        <a href="#simulador" data-nav-target="simulador" class="nav-item px-3.5 py-2 text-sm font-medium text-silver-200 hover:text-proverde-300 transition-colors inline-flex items-center gap-1.5">
+          <span>Simulador</span>
+          <span class="px-1.5 py-0.5 text-[10px] font-bold rounded-full bg-proverde-500/25 text-proverde-300 border border-proverde-300/35">60s</span>
+        </a>
+
+        <a href="#contato" data-nav-target="contato" class="nav-item px-3.5 py-2 text-sm font-medium text-silver-200 hover:text-proverde-300 transition-colors">
+          Contato
+        </a>
+      </nav>
+
+      <!-- CTA Destacado "Diagnóstico Rápido" + Botão Mobile -->
+      <div class="flex items-center gap-3">
+        <a href="#contato" class="hidden sm:inline-flex btn-pv-primary pl-5 pr-2 py-2 text-xs xl:text-sm">
+          <span>Diagnóstico Rápido</span>
+          <span class="arrow-orb">
+            <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+          </span>
+        </a>
+
+        <button
+          type="button"
+          id="mobile-drawer-btn"
+          onclick="toggleMobileDrawer()"
+          class="lg:hidden p-2.5 rounded-2xl bg-pine-900/70 hover:bg-pine-800 text-white border border-proverde-300/30 transition-colors"
+          aria-label="Abrir menu principal"
+          aria-expanded="false"
+        >
+          <i data-lucide="menu" class="w-6 h-6 text-proverde-300"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Menu Mobile Responsivo com Logótipo Oficial Completo -->
+    <div id="mobile-drawer" class="hidden lg:hidden bg-obsidian-950/98 backdrop-blur-2xl border-t border-proverde-300/20 px-4 pt-5 pb-7 space-y-3 shadow-2xl">
+      <div class="flex items-center justify-between pb-3 mb-2 border-b border-white/10">
+        <div class="flex items-center gap-2.5">
+          <svg class="w-9 h-9" viewBox="0 0 200 200" aria-hidden="true"><use href="#proverde-emblem-3d"></use></svg>
+          <span class="font-display text-lg font-bold tracking-tight">
+            <span class="pv-wordmark-pro">Pro</span><span class="pv-wordmark-verde">Verde</span>
+          </span>
+        </div>
+        <span class="text-[11px] font-semibold text-proverde-300 px-2.5 py-1 rounded-full bg-pine-900 border border-proverde-300/25">Portal B2B</span>
+      </div>
+
+      <a href="#inicio" onclick="closeMobileDrawer()" class="block px-4 py-2.5 rounded-xl text-white hover:bg-pine-900/70 font-medium">Início</a>
+      <a href="#a-proverde" onclick="closeMobileDrawer()" class="block px-4 py-2.5 rounded-xl text-silver-200 hover:bg-pine-900/70 font-medium">A ProVerde (Missão, Visão &amp; Valores)</a>
+      <a href="#solucoes" onclick="closeMobileDrawer()" class="block px-4 py-2.5 rounded-xl text-silver-200 hover:bg-pine-900/70 font-medium">Soluções &amp; Metodologia Hands-On (01–04)</a>
+      <a href="#compromissos" onclick="closeMobileDrawer()" class="block px-4 py-2.5 rounded-xl text-silver-200 hover:bg-pine-900/70 font-medium">Compromissos &amp; Diferenciais E·S·G</a>
+      <a href="#simulador" onclick="closeMobileDrawer()" class="block px-4 py-3 rounded-xl bg-pine-900/80 border border-proverde-300/35 text-proverde-300 font-display font-bold">Simulador Interativo de Maturidade ESG →</a>
+      <a href="#contato" onclick="closeMobileDrawer()" class="block px-4 py-2.5 rounded-xl text-silver-200 hover:bg-pine-900/70 font-medium">Contacto Executivo</a>
+
+      <div class="pt-3">
+        <a href="#contato" onclick="closeMobileDrawer()" class="btn-pv-primary w-full justify-between pl-5 pr-2.5 py-3 text-sm">
+          <span>Solicitar Diagnóstico Rápido</span>
+          <span class="arrow-orb"><i data-lucide="arrow-up-right" class="w-4 h-4"></i></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       2. HERO FULL-SCREEN DINÂMICO (CARROSSEL SUZANO + VITRINE 3D DO EMBLEMA)
+       ========================================================================== -->
+  <section id="inicio" class="relative bg-pv-hero-aurora text-white min-h-[90vh] flex flex-col justify-between overflow-hidden">
+    <!-- Canvas Interativo de Ondas Orgânicas & Partículas Bioluminescentes ProVerde -->
+    <canvas id="hero-aurora-canvas" class="absolute inset-0 w-full h-full pointer-events-none opacity-85"></canvas>
+
+    <!-- Malha Geométrica Sutil de Precisão Executiva -->
+    <div class="pointer-events-none absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, #4CE8D4 1px, transparent 1px), linear-gradient(to bottom, #4CE8D4 1px, transparent 1px); background-size: 64px 64px;"></div>
+
+    <!-- Conteúdo Principal em Duas Colunas -->
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-14 pb-10 w-full flex-1 flex items-center">
+      <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center w-full">
+
+        <!-- COLUNA ESQUERDA: Carrossel de 3 Cenários Estratégicos -->
+        <div class="lg:col-span-7 space-y-6">
+          <!-- Tag Luminosa do Cenário Ativo -->
+          <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-pine-900/75 border border-proverde-300/35 backdrop-blur-md shadow-lg">
+            <svg class="w-5 h-5 shrink-0" viewBox="0 0 200 200" aria-hidden="true"><use href="#proverde-emblem-3d"></use></svg>
+            <span id="hero-tag" class="text-[11px] sm:text-xs font-display font-bold uppercase tracking-[0.14em] text-proverde-300">
+              CENÁRIO 01 · METODOLOGIA PRÓPRIA HANDS-ON
+            </span>
+          </div>
+
+          <!-- Título Principal de Alto Impacto -->
+          <h1 id="hero-heading" class="font-display text-3xl sm:text-5xl xl:text-[54px] font-extrabold tracking-tight leading-[1.09] text-white transition-opacity duration-300">
+            Revertemos cenários de escassez em <span class="text-grad-turquoise-silver">vantagem competitiva e crescimento seguro</span>
+          </h1>
+
+          <!-- Subtítulo Executivo -->
+          <p id="hero-description" class="text-base sm:text-lg text-silver-200/90 max-w-2xl leading-relaxed transition-opacity duration-300">
+            Orientamos e capacitamos empresas de médio e grande porte na integração prática de ESG — adequando a estratégia à sua realidade financeira e operacional sem soluções meramente teóricas.
+          </p>
+
+          <!-- Destaques Rápidos em Pílulas -->
+          <div id="hero-pills" class="flex flex-wrap gap-2.5 pt-1">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-white/[0.06] border border-white/10 text-silver-100">
+              <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-proverde-300"></i> Diagnóstico Rápido de Crise ESG
+            </span>
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-white/[0.06] border border-white/10 text-silver-100">
+              <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-proverde-300"></i> Combate rigoroso ao Greenwashing
+            </span>
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-white/[0.06] border border-white/10 text-silver-100">
+              <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-proverde-300"></i> Valor 360º para Acionistas
+            </span>
+          </div>
+
+          <!-- 2 Botões de Ação -->
+          <div class="pt-3 flex flex-wrap items-center gap-4">
+            <a id="hero-btn-primary" href="#simulador" class="btn-pv-primary pl-6 pr-2.5 py-3 text-sm sm:text-base">
+              <span id="hero-btn-primary-label">Simular Maturidade ESG</span>
+              <span class="arrow-orb"><i data-lucide="arrow-right" class="w-4 h-4"></i></span>
+            </a>
+
+            <a id="hero-btn-secondary" href="#solucoes" class="btn-pv-glass px-6 py-3.5 text-sm sm:text-base">
+              <span id="hero-btn-secondary-label">Explorar Soluções Hands-On</span>
+              <i data-lucide="layers" class="w-4 h-4 text-proverde-300"></i>
+            </a>
+          </div>
+
+          <!-- Controles Inferiores Estilo Suzano: 3 Barras de Progresso Temporizadas -->
+          <div class="pt-6 border-t border-white/10">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div class="grid grid-cols-3 gap-3 sm:gap-5 flex-1">
+                <button type="button" onclick="selectHeroSlide(0)" class="text-left group focus:outline-none">
+                  <div class="flex items-center gap-2 text-xs mb-2">
+                    <span id="hero-idx-0" class="font-display font-extrabold text-proverde-300">01.</span>
+                    <span id="hero-lbl-0" class="text-white font-medium truncate text-[11px] sm:text-xs">Resiliência &amp; Virada ESG</span>
+                  </div>
+                  <div class="h-1.5 w-full rounded-full bg-white/10 overflow-hidden">
+                    <div id="hero-prog-0" class="h-full rounded-full bg-gradient-to-r from-proverde-400 to-proverde-300 transition-all duration-75" style="width: 0%"></div>
+                  </div>
+                </button>
+
+                <button type="button" onclick="selectHeroSlide(1)" class="text-left group focus:outline-none">
+                  <div class="flex items-center gap-2 text-xs mb-2">
+                    <span id="hero-idx-1" class="font-display font-extrabold text-silver-400">02.</span>
+                    <span id="hero-lbl-1" class="text-silver-400 group-hover:text-white font-medium truncate text-[11px] sm:text-xs">Crédito Verde &amp; Capital</span>
+                  </div>
+                  <div class="h-1.5 w-full rounded-full bg-white/10 overflow-hidden">
+                    <div id="hero-prog-1" class="h-full rounded-full bg-gradient-to-r from-proverde-400 to-proverde-300 transition-all duration-75" style="width: 0%"></div>
+                  </div>
+                </button>
+
+                <button type="button" onclick="selectHeroSlide(2)" class="text-left group focus:outline-none">
+                  <div class="flex items-center gap-2 text-xs mb-2">
+                    <span id="hero-idx-2" class="font-display font-extrabold text-silver-400">03.</span>
+                    <span id="hero-lbl-2" class="text-silver-400 group-hover:text-white font-medium truncate text-[11px] sm:text-xs">Governança Anti-Greenwashing</span>
+                  </div>
+                  <div class="h-1.5 w-full rounded-full bg-white/10 overflow-hidden">
+                    <div id="hero-prog-2" class="h-full rounded-full bg-gradient-to-r from-proverde-400 to-proverde-300 transition-all duration-75" style="width: 0%"></div>
+                  </div>
+                </button>
+              </div>
+
+              <!-- Controles Play/Pause + Setas -->
+              <div class="flex items-center gap-2 self-end sm:self-auto shrink-0">
+                <button
+                  type="button"
+                  id="hero-playpause-btn"
+                  onclick="toggleHeroPlayback()"
+                  class="w-9 h-9 rounded-full bg-white/5 hover:bg-white/15 border border-white/15 flex items-center justify-center text-silver-200 hover:text-white transition-colors"
+                  aria-label="Pausar ou reproduzir carrossel"
+                >
+                  <i data-lucide="pause" class="w-4 h-4"></i>
+                </button>
+                <button
+                  type="button"
+                  onclick="stepHeroSlide(-1)"
+                  class="w-9 h-9 rounded-full bg-white/5 hover:bg-white/15 border border-white/15 flex items-center justify-center text-silver-200 hover:text-white transition-colors"
+                  aria-label="Cenário anterior"
+                >
+                  <i data-lucide="chevron-left" class="w-4 h-4"></i>
+                </button>
+                <button
+                  type="button"
+                  onclick="stepHeroSlide(1)"
+                  class="w-9 h-9 rounded-full bg-proverde-500/25 hover:bg-proverde-500/45 border border-proverde-300/40 flex items-center justify-center text-proverde-300 hover:text-white transition-colors"
+                  aria-label="Próximo cenário"
+                >
+                  <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUNA DIREITA: VITRINE INTERATIVA 3D DO EMBLEMA OFICIAL PROVERDE -->
+        <div class="lg:col-span-5 hero-orb-stage flex justify-center">
+          <div
+            id="hero-3d-orb"
+            class="hero-orb-card relative w-full max-w-[440px] aspect-square rounded-[42px] p-6 sm:p-8 flex flex-col items-center justify-center overflow-visible select-none"
+          >
+            <!-- Reflexo Especular Giratório Contido -->
+            <div class="absolute inset-0 rounded-[42px] overflow-hidden pointer-events-none">
+              <div class="orb-specular-sweep"></div>
+            </div>
+
+            <!-- Anéis Orbitais Sutis -->
+            <svg class="pointer-events-none absolute inset-5 w-[calc(100%-40px)] h-[calc(100%-40px)] orbital-ring-dashed opacity-45" viewBox="0 0 300 300" aria-hidden="true">
+              <circle cx="150" cy="150" r="136" fill="none" stroke="#4CE8D4" stroke-opacity="0.32" stroke-width="1" stroke-dasharray="5 9" />
+              <circle cx="150" cy="150" r="106" fill="none" stroke="#9BA8B0" stroke-opacity="0.25" stroke-width="1" />
+              <circle cx="150" cy="14" r="3.5" fill="#4CE8D4" />
+              <circle cx="286" cy="150" r="3" fill="#D9E2E7" />
+            </svg>
+
+            <!-- EMBLEMA 3D ISOLADO OFICIAL DA PROVERDE EM GRANDE ESCALA (230px–275px) -->
+            <div class="hero-emblem-3d relative z-10 flex flex-col items-center">
+              <svg
+                class="w-[220px] h-[220px] sm:w-[268px] sm:h-[268px] overflow-visible"
+                viewBox="0 0 200 200"
+                role="img"
+                aria-label="Emblema 3D Oficial ProVerde em três camadas esculpidas"
+              >
+                <use href="#proverde-emblem-3d"></use>
+              </svg>
+              <!-- Assinatura Oficial Discreta na Base do Pedestal -->
+              <div class="mt-1 px-4 py-1 rounded-full bg-obsidian-950/80 border border-white/10 backdrop-blur-md flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-proverde-300"></span>
+                <span class="font-display text-xs font-bold tracking-tight">
+                  <span class="pv-wordmark-pro">Pro</span><span class="pv-wordmark-verde">Verde</span>
+                </span>
+                <span class="text-[10px] text-silver-400 uppercase tracking-widest">360º ESG</span>
+              </div>
+            </div>
+
+            <!-- Badge Flutuante Dinâmico 1 (Topo Esquerdo) -->
+            <div class="absolute -top-3 -left-2 sm:-left-5 z-20 px-3.5 py-2.5 rounded-2xl bg-obsidian-950/90 border border-proverde-300/40 backdrop-blur-xl shadow-2xl max-w-[205px] transition-all duration-300">
+              <div class="flex items-center gap-2">
+                <span class="w-7 h-7 rounded-xl bg-proverde-500/20 border border-proverde-300/35 flex items-center justify-center text-proverde-300 shrink-0">
+                  <i data-lucide="activity" class="w-4 h-4"></i>
+                </span>
+                <div>
+                  <p id="orb-badge-1-kicker" class="text-[10px] uppercase tracking-wider text-proverde-300 font-bold">Resposta Rápida</p>
+                  <p id="orb-badge-1-val" class="font-display text-xs font-bold text-white leading-tight">Diagnóstico de Escassez</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Badge Flutuante Dinâmico 2 (Direita Meio/Topo) -->
+            <div class="absolute top-10 -right-2 sm:-right-6 z-20 px-3.5 py-2.5 rounded-2xl bg-obsidian-950/90 border border-silver-200/25 backdrop-blur-xl shadow-2xl max-w-[200px] transition-all duration-300">
+              <div class="flex items-center gap-2">
+                <span class="w-7 h-7 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center text-silver-100 shrink-0">
+                  <i data-lucide="shield-check" class="w-4 h-4 text-proverde-300"></i>
+                </span>
+                <div>
+                  <p id="orb-badge-2-kicker" class="text-[10px] uppercase tracking-wider text-silver-400 font-bold">Padrão Global</p>
+                  <p id="orb-badge-2-val" class="font-display text-xs font-bold text-white leading-tight">GRI · SASB · ISSB</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Badge Flutuante Dinâmico 3 (Base Direita/Esquerda) -->
+            <div class="absolute -bottom-4 right-3 sm:right-6 z-20 px-4 py-2.5 rounded-2xl bg-gradient-to-r from-pine-900/95 to-obsidian-950/95 border border-proverde-300/40 backdrop-blur-xl shadow-2xl transition-all duration-300">
+              <div class="flex items-center gap-2.5">
+                <i data-lucide="trending-up" class="w-4 h-4 text-proverde-300 shrink-0"></i>
+                <div>
+                  <p id="orb-badge-3-kicker" class="text-[10px] uppercase tracking-wider text-proverde-200 font-bold">Valor Equilibrado</p>
+                  <p id="orb-badge-3-val" class="font-display text-xs font-bold text-white">Impacto Positivo 360º</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FAIXA FLUTUANTE DE TELEMETRIA & MÉTRICAS ANIMADAS NA BASE DA DOBRA INICIAL -->
+    <div class="relative z-20 border-t border-proverde-300/20 bg-obsidian-950/80 backdrop-blur-xl">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8 divide-y sm:divide-y-0 lg:divide-x divide-white/10">
+          <div class="pt-2 lg:pt-0 flex items-center gap-3.5">
+            <div class="font-display text-3xl sm:text-4xl font-extrabold text-grad-turquoise-silver shrink-0">
+              <span class="counter-num" data-target="15">0</span><span class="text-xl">d</span>
+            </div>
+            <div>
+              <p class="font-display font-bold text-xs sm:text-sm text-white">Diagnóstico Rápido</p>
+              <p class="text-[11px] text-silver-400">Para cenários de crise ou escassez ESG</p>
+            </div>
+          </div>
+
+          <div class="pt-3 sm:pt-0 lg:pl-7 flex items-center gap-3.5">
+            <div class="font-display text-3xl sm:text-4xl font-extrabold text-grad-turquoise-silver shrink-0">
+              <span class="counter-num" data-target="100">0</span><span class="text-xl">%</span>
+            </div>
+            <div>
+              <p class="font-display font-bold text-xs sm:text-sm text-white">Sustentabilidade Prática</p>
+              <p class="text-[11px] text-silver-400">Execução hands-on anti-greenwashing</p>
+            </div>
+          </div>
+
+          <div class="pt-3 lg:pt-0 lg:pl-7 flex items-center gap-3.5">
+            <div class="font-display text-3xl sm:text-4xl font-extrabold text-grad-turquoise-silver shrink-0">
+              <span class="counter-num" data-target="3">0</span><span class="text-xl">+</span>
+            </div>
+            <div>
+              <p class="font-display font-bold text-xs sm:text-sm text-white">Frameworks Globais</p>
+              <p class="text-[11px] text-silver-400">Alinhamento GRI, SASB e ISSB (IFRS)</p>
+            </div>
+          </div>
+
+          <div class="pt-3 lg:pt-0 lg:pl-7 flex items-center gap-3.5">
+            <div class="font-display text-3xl sm:text-4xl font-extrabold text-grad-turquoise-silver shrink-0">
+              <span class="counter-num" data-target="360">0</span><span class="text-xl">º</span>
+            </div>
+            <div>
+              <p class="font-display font-bold text-xs sm:text-sm text-white">Geração de Valor</p>
+              <p class="text-[11px] text-silver-400">Ambiente, sociedade e acionistas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. A PROVERDE ("MUITO PRAZER, SOMOS A PROVERDE" — EDITORIAL SUZANO)
+       ========================================================================== -->
+  <section id="a-proverde" class="py-20 lg:py-28 bg-pv-sage-editorial relative overflow-hidden">
+    <!-- Marca d'Água Decorativa Oficial da Folha 3D -->
+    <svg class="pointer-events-none absolute -right-24 -top-16 w-[440px] h-[440px] opacity-[0.055]" viewBox="0 0 200 200" aria-hidden="true">
+      <use href="#proverde-emblem-3d"></use>
+    </svg>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+
+        <!-- Coluna Visual com Moldura Orgânica Estilo Suzano + Selo Institucional Oficial -->
+        <div class="lg:col-span-5 reveal">
+          <div class="relative">
+            <div class="suzano-organic-frame overflow-hidden shadow-2xl border-4 border-white/80 bg-pine-950 aspect-[4/5] relative">
+              <img
+                src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=1000&q=85"
+                onerror="this.onerror=null;this.src='https://placehold.co/800x1000/0D2B27/4CE8D4?text=Vitalidade+Corporativa+ProVerde';"
+                alt="Folhagem esmeralda iluminada simbolizando vitalidade regenerativa e resiliência empresarial"
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950/85 via-pine-950/20 to-transparent"></div>
+
+              <!-- Assinatura Interna na Imagem -->
+              <div class="absolute bottom-6 left-6 right-6 text-white">
+                <p class="text-xs uppercase tracking-[0.18em] text-proverde-300 font-bold mb-1">Transição Corporativa</p>
+                <p class="font-display font-bold text-lg leading-snug">
+                  Resgatando a vitalidade dos negócios rumo a uma economia verde, ética e rentável.
+                </p>
+              </div>
+            </div>
+
+            <!-- Selo Institucional Flutuante com o Logótipo Oficial -->
+            <div class="pv-gradient-card-dark rounded-3xl p-4 sm:p-5 absolute -top-6 -right-3 sm:-right-6 max-w-[235px] text-white backdrop-blur-xl">
+              <div class="flex items-center gap-3">
+                <svg class="w-11 h-11 shrink-0" viewBox="0 0 200 200" aria-hidden="true">
+                  <use href="#proverde-emblem-3d"></use>
+                </svg>
+                <div>
+                  <p class="font-display font-bold text-sm leading-tight">
+                    <span class="pv-wordmark-pro">Pro</span><span class="pv-wordmark-verde">Verde</span>
+                  </p>
+                  <p class="text-[11px] text-proverde-300 font-medium mt-0.5">Médias &amp; Grandes Contas</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna Editorial: Propósito + Painel Interativo Missão, Visão e 4 Valores -->
+        <div class="lg:col-span-7 space-y-8 reveal">
+          <div class="space-y-4">
+            <span class="inline-flex items-center gap-2 text-xs font-display font-extrabold uppercase tracking-[0.2em] text-proverde-600">
+              <span class="w-7 h-0.5 bg-proverde-500 rounded-full"></span>
+              IDENTIDADE ORGANIZACIONAL &amp; PROPÓSITO
+            </span>
+            <h2 class="font-display text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-obsidian-950 tracking-tight leading-[1.12]">
+              Muito prazer, somos a <span class="text-grad-pine-emerald">ProVerde.</span>
+            </h2>
+            <p class="text-slate-700 text-base sm:text-lg leading-relaxed">
+              Atuamos como parceiro estratégico de <strong>empresas de médio e grande porte</strong> que precisam converter pressões regulatórias, exigências de investidores e gargalos operacionais em resultados concretos — unindo rigor técnico global a uma execução 100% <em>hands-on</em>.
+            </p>
+          </div>
+
+          <!-- Painel Interativo: Missão & Visão -->
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div class="pv-gradient-card-light rounded-3xl p-6 space-y-3 hover:border-proverde-400 transition-all">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full text-[11px] font-display font-extrabold uppercase tracking-wider bg-pine-900 text-proverde-300">Missão</span>
+                <i data-lucide="compass" class="w-5 h-5 text-proverde-600"></i>
+              </div>
+              <h3 class="font-display font-bold text-lg text-obsidian-950">De escassez a crescimento seguro</h3>
+              <p class="text-sm text-slate-700 leading-relaxed">
+                Orientar e capacitar empresas de médio e grande porte na integração das melhores práticas de ESG, transformando desafios de sustentabilidade em vantagens competitivas e revertendo cenários de escassez em oportunidades de crescimento seguro.
+              </p>
+            </div>
+
+            <div class="pv-gradient-card-light rounded-3xl p-6 space-y-3 hover:border-proverde-400 transition-all">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full text-[11px] font-display font-extrabold uppercase tracking-wider bg-pine-900 text-proverde-300">Visão</span>
+                <i data-lucide="sparkles" class="w-5 h-5 text-proverde-600"></i>
+              </div>
+              <h3 class="font-display font-bold text-lg text-obsidian-950">Vitalidade e liderança sustentável</h3>
+              <p class="text-sm text-slate-700 leading-relaxed">
+                Ser a consultoria de referência em transformação sustentável no mercado, reconhecida por resgatar a vitalidade dos negócios e liderar a transição corporativa para uma economia verde, ética e responsável.
+              </p>
+            </div>
+          </div>
+
+          <!-- Os 4 Valores Inegociáveis da ProVerde -->
+          <div class="space-y-3">
+            <p class="text-xs font-display font-extrabold uppercase tracking-[0.18em] text-pine-800">
+              Nossos 4 Valores Inegociáveis
+            </p>
+            <div class="grid sm:grid-cols-2 gap-3.5">
+              <div class="pv-gradient-card-light rounded-2xl p-4 flex items-start gap-3.5">
+                <span class="w-9 h-9 rounded-xl bg-gradient-to-br from-pine-900 to-proverde-600 text-proverde-200 flex items-center justify-center shrink-0 mt-0.5">
+                  <i data-lucide="wrench" class="w-4 h-4"></i>
+                </span>
+                <div>
+                  <h4 class="font-display font-bold text-sm text-obsidian-950">Sustentabilidade Prática</h4>
+                  <p class="text-xs text-slate-600 mt-0.5 leading-relaxed">Entregamos soluções reais e aplicáveis, combatendo frontalmente o <em>greenwashing</em>.</p>
+                </div>
+              </div>
+
+              <div class="pv-gradient-card-light rounded-2xl p-4 flex items-start gap-3.5">
+                <span class="w-9 h-9 rounded-xl bg-gradient-to-br from-pine-900 to-proverde-600 text-proverde-200 flex items-center justify-center shrink-0 mt-0.5">
+                  <i data-lucide="scale" class="w-4 h-4"></i>
+                </span>
+                <div>
+                  <h4 class="font-display font-bold text-sm text-obsidian-950">Transparência e Ética</h4>
+                  <p class="text-xs text-slate-600 mt-0.5 leading-relaxed">Condução de processos e métricas com clareza absoluta na governança.</p>
+                </div>
+              </div>
+
+              <div class="pv-gradient-card-light rounded-2xl p-4 flex items-start gap-3.5">
+                <span class="w-9 h-9 rounded-xl bg-gradient-to-br from-pine-900 to-proverde-600 text-proverde-200 flex items-center justify-center shrink-0 mt-0.5">
+                  <i data-lucide="shield" class="w-4 h-4"></i>
+                </span>
+                <div>
+                  <h4 class="font-display font-bold text-sm text-obsidian-950">Resiliência Corporativa</h4>
+                  <p class="text-xs text-slate-600 mt-0.5 leading-relaxed">Foco em tirar empresas da vulnerabilidade operacional e da escassez.</p>
+                </div>
+              </div>
+
+              <div class="pv-gradient-card-light rounded-2xl p-4 flex items-start gap-3.5">
+                <span class="w-9 h-9 rounded-xl bg-gradient-to-br from-pine-900 to-proverde-600 text-proverde-200 flex items-center justify-center shrink-0 mt-0.5">
+                  <i data-lucide="globe-2" class="w-4 h-4"></i>
+                </span>
+                <div>
+                  <h4 class="font-display font-bold text-sm text-obsidian-950">Impacto Positivo 360º</h4>
+                  <p class="text-xs text-slate-600 mt-0.5 leading-relaxed">Valor equilibrado para o meio ambiente, a sociedade e os acionistas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. SOLUÇÕES & METODOLOGIA HANDS-ON (CARDS 01 A 04 EM GRADIENTE ESCURO)
+       ========================================================================== -->
+  <section id="solucoes" class="py-20 lg:py-28 bg-pv-dark-mesh text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <!-- Cabeçalho -->
+      <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-14 reveal">
+        <div class="max-w-2xl space-y-3">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-pine-900/80 border border-proverde-300/30 text-proverde-300 text-xs font-display font-bold uppercase tracking-wider">
+            ARQUITETURA DE SOLUÇÕES B2B · METODOLOGIA PRÓPRIA
+          </div>
+          <h2 class="font-display text-3xl sm:text-4xl lg:text-[42px] font-extrabold tracking-tight leading-tight">
+            Quatro pilares executivos para proteger valor de mercado e destravar crescimento
+          </h2>
+        </div>
+        <p class="text-silver-200/80 max-w-md text-sm sm:text-base">
+          Clique em qualquer solução numerada para abrir o <strong>Dossiê Executivo</strong> com entregáveis práticos, prazos e KPIs monitorados.
+        </p>
+      </div>
+
+      <!-- Grelha de Cards Numerados 01 a 04 -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Card 01 -->
+        <article
+          onclick="openSolutionModal(0)"
+          tabindex="0"
+          onkeydown="if(event.key==='Enter') openSolutionModal(0)"
+          class="pv-gradient-card-dark rounded-[28px] p-7 cursor-pointer group hover:-translate-y-2 hover:border-proverde-300/60 transition-all duration-300 flex flex-col justify-between focus:outline-none focus:ring-2 focus:ring-proverde-300"
+        >
+          <div class="space-y-5">
+            <div class="flex items-center justify-between">
+              <span class="font-display text-4xl font-extrabold text-grad-turquoise-silver">01</span>
+              <span class="w-11 h-11 rounded-2xl bg-pine-800/70 border border-proverde-300/30 flex items-center justify-center text-proverde-300 group-hover:scale-110 transition-transform">
+                <i data-lucide="zap" class="w-5 h-5"></i>
+              </span>
+            </div>
+            <h3 class="font-display text-xl font-bold text-white group-hover:text-proverde-200 transition-colors leading-snug">
+              Diagnóstico Rápido para Crise e Escassez ESG
+            </h3>
+            <p class="text-sm text-silver-200/80 leading-relaxed">
+              Metodologia proprietária de intervenção ágil para estancar vulnerabilidades operacionais, hídricas, energéticas ou pressões regulatórias urgentes.
+            </p>
+          </div>
+          <div class="pt-6 mt-6 border-t border-white/10 flex items-center justify-between">
+            <span class="text-xs font-display font-bold uppercase tracking-wider text-proverde-300">Inspecionar KPIs</span>
+            <span class="w-8 h-8 rounded-full bg-proverde-400/20 group-hover:bg-proverde-300 text-proverde-300 group-hover:text-obsidian-950 flex items-center justify-center transition-all">
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </span>
+          </div>
+        </article>
+
+        <!-- Card 02 -->
+        <article
+          onclick="openSolutionModal(1)"
+          tabindex="0"
+          onkeydown="if(event.key==='Enter') openSolutionModal(1)"
+          class="pv-gradient-card-dark rounded-[28px] p-7 cursor-pointer group hover:-translate-y-2 hover:border-proverde-300/60 transition-all duration-300 flex flex-col justify-between focus:outline-none focus:ring-2 focus:ring-proverde-300"
+        >
+          <div class="space-y-5">
+            <div class="flex items-center justify-between">
+              <span class="font-display text-4xl font-extrabold text-grad-turquoise-silver">02</span>
+              <span class="w-11 h-11 rounded-2xl bg-pine-800/70 border border-proverde-300/30 flex items-center justify-center text-proverde-300 group-hover:scale-110 transition-transform">
+                <i data-lucide="sliders-horizontal" class="w-5 h-5"></i>
+              </span>
+            </div>
+            <h3 class="font-display text-xl font-bold text-white group-hover:text-proverde-200 transition-colors leading-snug">
+              Adequação à Realidade Financeira e Operacional
+            </h3>
+            <p class="text-sm text-silver-200/80 leading-relaxed">
+              Planos <em>hands-on</em> de ecoeficiência, economia circular e descarbonização desenhados sob medida para o fluxo de caixa de médias e grandes empresas.
+            </p>
+          </div>
+          <div class="pt-6 mt-6 border-t border-white/10 flex items-center justify-between">
+            <span class="text-xs font-display font-bold uppercase tracking-wider text-proverde-300">Inspecionar KPIs</span>
+            <span class="w-8 h-8 rounded-full bg-proverde-400/20 group-hover:bg-proverde-300 text-proverde-300 group-hover:text-obsidian-950 flex items-center justify-center transition-all">
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </span>
+          </div>
+        </article>
+
+        <!-- Card 03 -->
+        <article
+          onclick="openSolutionModal(2)"
+          tabindex="0"
+          onkeydown="if(event.key==='Enter') openSolutionModal(2)"
+          class="pv-gradient-card-dark rounded-[28px] p-7 cursor-pointer group hover:-translate-y-2 hover:border-proverde-300/60 transition-all duration-300 flex flex-col justify-between focus:outline-none focus:ring-2 focus:ring-proverde-300"
+        >
+          <div class="space-y-5">
+            <div class="flex items-center justify-between">
+              <span class="font-display text-4xl font-extrabold text-grad-turquoise-silver">03</span>
+              <span class="w-11 h-11 rounded-2xl bg-pine-800/70 border border-proverde-300/30 flex items-center justify-center text-proverde-300 group-hover:scale-110 transition-transform">
+                <i data-lucide="landmark" class="w-5 h-5"></i>
+              </span>
+            </div>
+            <h3 class="font-display text-xl font-bold text-white group-hover:text-proverde-200 transition-colors leading-snug">
+              Desbloqueio de Crédito Verde &amp; Investidores
+            </h3>
+            <p class="text-sm text-silver-200/80 leading-relaxed">
+              Estruturação técnica de relatórios ESG, linhas de base e metas SPTs exigidas por bancos e fundos para liberar aportes e financiamentos verdes.
+            </p>
+          </div>
+          <div class="pt-6 mt-6 border-t border-white/10 flex items-center justify-between">
+            <span class="text-xs font-display font-bold uppercase tracking-wider text-proverde-300">Inspecionar KPIs</span>
+            <span class="w-8 h-8 rounded-full bg-proverde-400/20 group-hover:bg-proverde-300 text-proverde-300 group-hover:text-obsidian-950 flex items-center justify-center transition-all">
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </span>
+          </div>
+        </article>
+
+        <!-- Card 04 -->
+        <article
+          onclick="openSolutionModal(3)"
+          tabindex="0"
+          onkeydown="if(event.key==='Enter') openSolutionModal(3)"
+          class="pv-gradient-card-dark rounded-[28px] p-7 cursor-pointer group hover:-translate-y-2 hover:border-proverde-300/60 transition-all duration-300 flex flex-col justify-between focus:outline-none focus:ring-2 focus:ring-proverde-300"
+        >
+          <div class="space-y-5">
+            <div class="flex items-center justify-between">
+              <span class="font-display text-4xl font-extrabold text-grad-turquoise-silver">04</span>
+              <span class="w-11 h-11 rounded-2xl bg-pine-800/70 border border-proverde-300/30 flex items-center justify-center text-proverde-300 group-hover:scale-110 transition-transform">
+                <i data-lucide="file-check-2" class="w-5 h-5"></i>
+              </span>
+            </div>
+            <h3 class="font-display text-xl font-bold text-white group-hover:text-proverde-200 transition-colors leading-snug">
+              Governança &amp; Frameworks Globais (GRI, SASB, ISSB)
+            </h3>
+            <p class="text-sm text-silver-200/80 leading-relaxed">
+              Conformidade regulatória nacional e internacional, matriz de dupla materialidade e reportes auditáveis alinhados às normas IFRS S1/S2.
+            </p>
+          </div>
+          <div class="pt-6 mt-6 border-t border-white/10 flex items-center justify-between">
+            <span class="text-xs font-display font-bold uppercase tracking-wider text-proverde-300">Inspecionar KPIs</span>
+            <span class="w-8 h-8 rounded-full bg-proverde-400/20 group-hover:bg-proverde-300 text-proverde-300 group-hover:text-obsidian-950 flex items-center justify-center transition-all">
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. COMPROMISSOS & DIFERENCIAIS POR DIMENSÃO (FILTRO E · S · G + COMPARATIVO)
+       ========================================================================== -->
+  <section id="compromissos" class="py-20 lg:py-28 bg-pv-mineral-soft relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+
+      <!-- Cabeçalho + Botões de Filtro Interativo -->
+      <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 reveal">
+        <div class="max-w-2xl space-y-3">
+          <span class="inline-flex items-center gap-2 text-xs font-display font-extrabold uppercase tracking-[0.2em] text-proverde-600">
+            <span class="w-7 h-0.5 bg-proverde-500 rounded-full"></span>
+            ENTREGAS TANGÍVEIS POR DIMENSÃO
+          </span>
+          <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-obsidian-950 tracking-tight">
+            Compromissos práticos para tirar operações da vulnerabilidade
+          </h2>
+        </div>
+
+        <!-- Filtro Todos | Ambiental [E] | Social [S] | Governança [G] -->
+        <div class="flex flex-wrap gap-2 p-1.5 rounded-2xl bg-pine-950/90 border border-proverde-400/30 shadow-lg" role="group" aria-label="Filtrar entregas por eixo ESG">
+          <button type="button" onclick="filterEsgAxis('all')" data-axis-btn="all" class="axis-btn px-4 py-2 rounded-xl font-display font-bold text-xs bg-gradient-to-r from-proverde-400 to-proverde-300 text-obsidian-950 transition-all">
+            Todos (360º)
+          </button>
+          <button type="button" onclick="filterEsgAxis('E')" data-axis-btn="E" class="axis-btn px-4 py-2 rounded-xl font-display font-bold text-xs text-silver-200 hover:text-white transition-all">
+            Ambiental [E]
+          </button>
+          <button type="button" onclick="filterEsgAxis('S')" data-axis-btn="S" class="axis-btn px-4 py-2 rounded-xl font-display font-bold text-xs text-silver-200 hover:text-white transition-all">
+            Social [S]
+          </button>
+          <button type="button" onclick="filterEsgAxis('G')" data-axis-btn="G" class="axis-btn px-4 py-2 rounded-xl font-display font-bold text-xs text-silver-200 hover:text-white transition-all">
+            Governança [G]
+          </button>
+        </div>
+      </div>
+
+      <!-- Grelha Dinâmica de Entregas -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div data-axis-card="E" class="pv-gradient-card-light rounded-3xl p-7 flex flex-col justify-between hover:-translate-y-1 transition-all">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-3 py-1 rounded-full text-xs font-display font-bold bg-pine-900 text-proverde-300">Ambiental [E]</span>
+              <span class="text-xs font-semibold text-pine-800">Mitigação de Escassez</span>
+            </div>
+            <h3 class="font-display text-lg font-bold text-obsidian-950">Segurança Hídrica, Energética &amp; Insumos Críticos</h3>
+            <p class="text-sm text-slate-700 leading-relaxed">
+              Reengenharia de consumo e circularidade industrial para blindar a produção contra crises de abastecimento e reduzir diretamente o OPEX.
+            </p>
+          </div>
+          <div class="pt-4 mt-5 border-t border-proverde-500/15 flex items-center justify-between text-xs">
+            <span class="text-slate-500">Indicador-chave:</span>
+            <span class="font-display font-bold text-pine-900">Economia R$/unidade produzida</span>
+          </div>
+        </div>
+
+        <div data-axis-card="E" class="pv-gradient-card-light rounded-3xl p-7 flex flex-col justify-between hover:-translate-y-1 transition-all">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-3 py-1 rounded-full text-xs font-display font-bold bg-pine-900 text-proverde-300">Ambiental [E]</span>
+              <span class="text-xs font-semibold text-pine-800">Clima &amp; Carbono</span>
+            </div>
+            <h3 class="font-display text-lg font-bold text-obsidian-950">Inventário GHG Protocol &amp; Descarbonização Viável</h3>
+            <p class="text-sm text-slate-700 leading-relaxed">
+              Mensuração auditável dos Escopos 1, 2 e 3 com curva de abatimento priorizada por retorno financeiro e exigência de clientes exportadores.
+            </p>
+          </div>
+          <div class="pt-4 mt-5 border-t border-proverde-500/15 flex items-center justify-between text-xs">
+            <span class="text-slate-500">Indicador-chave:</span>
+            <span class="font-display font-bold text-pine-900">tCO₂e evitadas + ROI operacional</span>
+          </div>
+        </div>
+
+        <div data-axis-card="S" class="pv-gradient-card-light rounded-3xl p-7 flex flex-col justify-between hover:-translate-y-1 transition-all">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-3 py-1 rounded-full text-xs font-display font-bold bg-pine-800 text-silver-100">Social [S]</span>
+              <span class="text-xs font-semibold text-pine-800">Cadeia B2B</span>
+            </div>
+            <h3 class="font-display text-lg font-bold text-obsidian-950">Homologação Socioambiental de Fornecedores</h3>
+            <p class="text-sm text-slate-700 leading-relaxed">
+              Rastreabilidade e critérios éticos na cadeia de suprimentos, prevenindo passivos trabalhistas, bloqueios comerciais e danos reputacionais.
+            </p>
+          </div>
+          <div class="pt-4 mt-5 border-t border-proverde-500/15 flex items-center justify-between text-xs">
+            <span class="text-slate-500">Indicador-chave:</span>
+            <span class="font-display font-bold text-pine-900">% da cadeia crítica auditada</span>
+          </div>
+        </div>
+
+        <div data-axis-card="S" class="pv-gradient-card-light rounded-3xl p-7 flex flex-col justify-between hover:-translate-y-1 transition-all">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-3 py-1 rounded-full text-xs font-display font-bold bg-pine-800 text-silver-100">Social [S]</span>
+              <span class="text-xs font-semibold text-pine-800">Cultura &amp; Liderança</span>
+            </div>
+            <h3 class="font-display text-lg font-bold text-obsidian-950">Capacitação Executiva &amp; Segurança Operacional</h3>
+            <p class="text-sm text-slate-700 leading-relaxed">
+              Programas práticos para conselhos, gestores e equipas técnicas incorporarem metas sustentáveis e segurança ocupacional na rotina diária.
+            </p>
+          </div>
+          <div class="pt-4 mt-5 border-t border-proverde-500/15 flex items-center justify-between text-xs">
+            <span class="text-slate-500">Indicador-chave:</span>
+            <span class="font-display font-bold text-pine-900">Lideranças com metas ESG ativas</span>
+          </div>
+        </div>
+
+        <div data-axis-card="G" class="pv-gradient-card-light rounded-3xl p-7 flex flex-col justify-between hover:-translate-y-1 transition-all">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-3 py-1 rounded-full text-xs font-display font-bold bg-obsidian-900 text-proverde-300">Governança [G]</span>
+              <span class="text-xs font-semibold text-pine-800">GRI · SASB · ISSB</span>
+            </div>
+            <h3 class="font-display text-lg font-bold text-obsidian-950">Relatórios Auditáveis &amp; Blindagem Anti-Greenwashing</h3>
+            <p class="text-sm text-slate-700 leading-relaxed">
+              Estruturação completa de controles internos e relatórios anuais em conformidade com IFRS S1/S2 e Resolução CVM 193 com lastro documental.
+            </p>
+          </div>
+          <div class="pt-4 mt-5 border-t border-proverde-500/15 flex items-center justify-between text-xs">
+            <span class="text-slate-500">Indicador-chave:</span>
+            <span class="font-display font-bold text-pine-900">100% de rastreabilidade p/ auditoria</span>
+          </div>
+        </div>
+
+        <div data-axis-card="G" class="pv-gradient-card-light rounded-3xl p-7 flex flex-col justify-between hover:-translate-y-1 transition-all">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-3 py-1 rounded-full text-xs font-display font-bold bg-obsidian-900 text-proverde-300">Governança &amp; Capital [G]</span>
+              <span class="text-xs font-semibold text-pine-800">Crédito Verde</span>
+            </div>
+            <h3 class="font-display text-lg font-bold text-obsidian-950">Enquadramento para Financiamentos &amp; Aportes Verdes</h3>
+            <p class="text-sm text-slate-700 leading-relaxed">
+              Alinhamento de indicadores e governança corporativa às exigências de bancos e investidores institucionais para reduzir o custo de capital.
+            </p>
+          </div>
+          <div class="pt-4 mt-5 border-t border-proverde-500/15 flex items-center justify-between text-xs">
+            <span class="text-slate-500">Indicador-chave:</span>
+            <span class="font-display font-bold text-pine-900">Elegibilidade p/ linhas sustentáveis</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quadro Comparativo Executivo: Abordagem Hands-On ProVerde vs Consultorias Teóricas -->
+      <div class="pv-gradient-card-dark rounded-[32px] p-7 sm:p-10 text-white reveal">
+        <div class="grid lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-5 space-y-4">
+            <div class="flex items-center gap-3">
+              <svg class="w-11 h-11 shrink-0" viewBox="0 0 200 200" aria-hidden="true"><use href="#proverde-emblem-3d"></use></svg>
+              <div>
+                <p class="text-xs uppercase tracking-widest text-proverde-300 font-bold">Diferencial Competitivo</p>
+                <h3 class="font-display text-2xl font-extrabold text-white">Por que escolher a ProVerde?</h3>
+              </div>
+            </div>
+            <p class="text-sm text-silver-200/85 leading-relaxed">
+              Empresas tradicionais em atualização não podem perder meses com diagnósticos abstratos. Nossa senioridade converte normas complexas em execução direta no chão de fábrica e no conselho.
+            </p>
+          </div>
+
+          <div class="lg:col-span-7 grid sm:grid-cols-2 gap-4">
+            <div class="p-5 rounded-2xl bg-white/[0.04] border border-white/10 space-y-3">
+              <p class="text-xs font-display font-bold uppercase tracking-wider text-silver-400">Consultorias Teóricas Tradicionais</p>
+              <ul class="space-y-2 text-xs text-silver-200/75">
+                <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-rose-400 shrink-0 mt-0.5"></i> Relatórios extensos desconectados da operação e do caixa</li>
+                <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-rose-400 shrink-0 mt-0.5"></i> Pacotes padronizados que ignoram crises imediatas de escassez</li>
+                <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-rose-400 shrink-0 mt-0.5"></i> Risco de promessas genéricas vulneráveis a greenwashing</li>
+              </ul>
+            </div>
+
+            <div class="p-5 rounded-2xl bg-gradient-to-br from-pine-800/80 to-pine-950/95 border border-proverde-300/45 space-y-3">
+              <p class="text-xs font-display font-bold uppercase tracking-wider text-proverde-300">Metodologia Hands-On ProVerde</p>
+              <ul class="space-y-2 text-xs text-white">
+                <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-proverde-300 shrink-0 mt-0.5"></i> Diagnóstico rápido focado em estancar escassez e gerar caixa</li>
+                <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-proverde-300 shrink-0 mt-0.5"></i> Estratégia calibrada à realidade financeira de médias e grandes</li>
+                <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-proverde-300 shrink-0 mt-0.5"></i> Lastro técnico GRI, SASB e ISSB pronto para Crédito Verde</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. SIMULADOR INTERATIVO DE MATURIDADE & PRONTIDÃO ESG (4 SLIDERS B2B)
+       ========================================================================== -->
+  <section id="simulador" class="py-20 lg:py-28 bg-pv-sage-editorial relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-12 reveal">
+        <div class="max-w-2xl space-y-3">
+          <span class="inline-flex items-center gap-2 text-xs font-display font-extrabold uppercase tracking-[0.2em] text-proverde-600">
+            <span class="w-7 h-0.5 bg-proverde-500 rounded-full"></span>
+            DIAGNÓSTICO INTERATIVO EM TEMPO REAL
+          </span>
+          <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-obsidian-950 tracking-tight">
+            Simulador de Maturidade &amp; Índice de Resiliência ProVerde
+          </h2>
+          <p class="text-slate-700 text-sm sm:text-base">
+            Ajuste os 4 eixos abaixo (ou escolha um perfil típico B2B) para calcular instantaneamente a prontidão da sua empresa e gerar uma recomendação personalizada.
+          </p>
+        </div>
+
+        <!-- Perfis Rápidos Pré-Configurados -->
+        <div class="flex flex-wrap gap-2">
+          <button type="button" onclick="applySimPreset(25, 30, 20, 15)" class="px-3.5 py-2 rounded-full text-xs font-display font-bold bg-white hover:bg-pine-900 hover:text-proverde-300 text-obsidian-950 border border-proverde-500/25 transition-all">
+            Cenário de Escassez / Crise
+          </button>
+          <button type="button" onclick="applySimPreset(55, 50, 45, 40)" class="px-3.5 py-2 rounded-full text-xs font-display font-bold bg-white hover:bg-pine-900 hover:text-proverde-300 text-obsidian-950 border border-proverde-500/25 transition-all">
+            Média Empresa em Transição
+          </button>
+          <button type="button" onclick="applySimPreset(78, 74, 70, 68)" class="px-3.5 py-2 rounded-full text-xs font-display font-bold bg-white hover:bg-pine-900 hover:text-proverde-300 text-obsidian-950 border border-proverde-500/25 transition-all">
+            Grande Conta / Captação Verde
+          </button>
+        </div>
+      </div>
+
+      <div class="grid lg:grid-cols-12 gap-8 items-stretch">
+        <!-- Coluna Esquerda: 4 Controlos Deslizantes + Porte -->
+        <div class="lg:col-span-7 pv-gradient-card-light rounded-[32px] p-6 sm:p-9 flex flex-col justify-between space-y-7 reveal">
+          <!-- Seletor de Porte Corporativo -->
+          <div class="space-y-2.5">
+            <label class="block text-xs font-display font-extrabold uppercase tracking-wider text-pine-900">
+              Perfil da Operação Avaliada
+            </label>
+            <div class="grid sm:grid-cols-3 gap-2.5" id="sim-company-tier">
+              <button type="button" onclick="setSimCompanyTier('Média Empresa')" data-tier="Média Empresa" class="tier-btn py-2.5 px-3.5 rounded-xl font-display font-bold text-xs bg-pine-900 text-proverde-300 border border-proverde-400/40 transition-all">
+                Média Empresa
+              </button>
+              <button type="button" onclick="setSimCompanyTier('Grande Empresa')" data-tier="Grande Empresa" class="tier-btn py-2.5 px-3.5 rounded-xl font-display font-bold text-xs bg-white/80 text-slate-700 border border-slate-300/70 hover:border-proverde-500 transition-all">
+                Grande Empresa
+              </button>
+              <button type="button" onclick="setSimCompanyTier('Grupo Industrial / Exportador')" data-tier="Grupo Industrial / Exportador" class="tier-btn py-2.5 px-3.5 rounded-xl font-display font-bold text-xs bg-white/80 text-slate-700 border border-slate-300/70 hover:border-proverde-500 transition-all">
+                Indústria / Exportadora
+              </button>
+            </div>
+          </div>
+
+          <!-- Slider 1: Gestão de Escassez e Recursos -->
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <label for="slider-escassez" class="font-display font-bold text-sm text-obsidian-950 flex items-center gap-2">
+                <i data-lucide="droplets" class="w-4 h-4 text-proverde-600"></i>
+                1. Gestão de Escassez &amp; Eficiência de Recursos
+              </label>
+              <span id="lbl-slider-escassez" class="font-display font-extrabold text-sm text-proverde-600 bg-white px-2.5 py-0.5 rounded-lg border border-proverde-500/20">45%</span>
+            </div>
+            <input id="slider-escassez" type="range" min="0" max="100" value="45" oninput="recalcSimulator()" class="pv-range" />
+            <div class="flex justify-between text-[11px] text-slate-500">
+              <span>Alta vulnerabilidade / perdas</span>
+              <span>Operação circular resiliente</span>
+            </div>
+          </div>
+
+          <!-- Slider 2: Maturidade de Governança -->
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <label for="slider-gov" class="font-display font-bold text-sm text-obsidian-950 flex items-center gap-2">
+                <i data-lucide="shield-check" class="w-4 h-4 text-proverde-600"></i>
+                2. Maturidade de Governança, Ética &amp; Controles
+              </label>
+              <span id="lbl-slider-gov" class="font-display font-extrabold text-sm text-proverde-600 bg-white px-2.5 py-0.5 rounded-lg border border-proverde-500/20">50%</span>
+            </div>
+            <input id="slider-gov" type="range" min="0" max="100" value="50" oninput="recalcSimulator()" class="pv-range" />
+            <div class="flex justify-between text-[11px] text-slate-500">
+              <span>Ações informais / dispersas</span>
+              <span>Comitê ESG &amp; metas auditáveis</span>
+            </div>
+          </div>
+
+          <!-- Slider 3: Prontidão para Crédito Verde / Investidores -->
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <label for="slider-credito" class="font-display font-bold text-sm text-obsidian-950 flex items-center gap-2">
+                <i data-lucide="landmark" class="w-4 h-4 text-proverde-600"></i>
+                3. Prontidão para Crédito Verde &amp; Investidores
+              </label>
+              <span id="lbl-slider-credito" class="font-display font-extrabold text-sm text-proverde-600 bg-white px-2.5 py-0.5 rounded-lg border border-proverde-500/20">40%</span>
+            </div>
+            <input id="slider-credito" type="range" min="0" max="100" value="40" oninput="recalcSimulator()" class="pv-range" />
+            <div class="flex justify-between text-[11px] text-slate-500">
+              <span>Sem dossiê / KPIs financeiros</span>
+              <span>Apto p/ linhas verdes e SLL</span>
+            </div>
+          </div>
+
+          <!-- Slider 4: Conformidade GRI / SASB / ISSB -->
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <label for="slider-normas" class="font-display font-bold text-sm text-obsidian-950 flex items-center gap-2">
+                <i data-lucide="file-spreadsheet" class="w-4 h-4 text-proverde-600"></i>
+                4. Conformidade Normativa (GRI · SASB · ISSB)
+              </label>
+              <span id="lbl-slider-normas" class="font-display font-extrabold text-sm text-proverde-600 bg-white px-2.5 py-0.5 rounded-lg border border-proverde-500/20">35%</span>
+            </div>
+            <input id="slider-normas" type="range" min="0" max="100" value="35" oninput="recalcSimulator()" class="pv-range" />
+            <div class="flex justify-between text-[11px] text-slate-500">
+              <span>Sem reporte padronizado</span>
+              <span>Aderente ao IFRS S1/S2 &amp; GRI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna Direita: Painel de Resultado com Índice ProVerde (0-100%) -->
+        <div class="lg:col-span-5 pv-gradient-card-dark rounded-[32px] p-6 sm:p-8 text-white flex flex-col justify-between space-y-6 reveal">
+          <!-- Topo com Logo Oficial -->
+          <div class="flex items-center justify-between border-b border-white/10 pb-4">
+            <div class="flex items-center gap-2.5">
+              <svg class="w-9 h-9 shrink-0" viewBox="0 0 200 200" aria-hidden="true"><use href="#proverde-emblem-3d"></use></svg>
+              <div>
+                <p class="text-[10px] uppercase tracking-widest text-silver-400 font-bold">Relatório Instantâneo</p>
+                <p class="font-display font-bold text-sm text-white">Índice de Resiliência ProVerde</p>
+              </div>
+            </div>
+            <span id="sim-status-pill" class="px-3 py-1 rounded-full text-xs font-display font-bold bg-proverde-400/20 text-proverde-300 border border-proverde-300/35">
+              Estruturação Tática
+            </span>
+          </div>
+
+          <!-- Medidor Circular + Diagnóstico Principal -->
+          <div class="flex items-center gap-5">
+            <div class="relative w-28 h-28 shrink-0">
+              <svg class="w-28 h-28" viewBox="0 0 120 120">
+                <circle cx="60" cy="60" r="50" fill="none" stroke="rgba(255,255,255,0.09)" stroke-width="10"></circle>
+                <circle
+                  id="sim-gauge-circle"
+                  class="gauge-progress"
+                  cx="60"
+                  cy="60"
+                  r="50"
+                  fill="none"
+                  stroke="#4CE8D4"
+                  stroke-width="10"
+                  stroke-linecap="round"
+                  stroke-dasharray="314.16"
+                  stroke-dashoffset="179"
+                ></circle>
+              </svg>
+              <div class="absolute inset-0 flex flex-col items-center justify-center">
+                <span class="font-display text-3xl font-extrabold text-white"><span id="sim-total-pct">43</span><span class="text-base text-proverde-300">%</span></span>
+                <span class="text-[9px] uppercase tracking-widest text-silver-400">Resiliência</span>
+              </div>
+            </div>
+
+            <div class="space-y-1.5">
+              <h3 id="sim-diag-title" class="font-display font-bold text-base text-proverde-300 leading-snug">
+                Oportunidade de blindagem operacional e destravamento de Crédito Verde
+              </h3>
+              <p id="sim-diag-desc" class="text-xs text-silver-200/85 leading-relaxed">
+                Há espaço imediato para converter iniciativas isoladas em indicadores auditáveis GRI/ISSB que reduzem risco e atraem capital.
+              </p>
+            </div>
+          </div>
+
+          <!-- Barras Visuais por Eixo -->
+          <div class="space-y-3 bg-obsidian-950/65 p-4 rounded-2xl border border-white/10">
+            <div class="space-y-1">
+              <div class="flex justify-between text-[11px]">
+                <span class="text-silver-200">Mitigação de Escassez &amp; Recursos</span>
+                <span id="bar-txt-1" class="font-display font-bold text-proverde-300">45%</span>
+              </div>
+              <div class="h-1.5 bg-white/10 rounded-full overflow-hidden">
+                <div id="bar-fill-1" class="h-full bg-gradient-to-r from-proverde-500 to-proverde-300 rounded-full transition-all duration-300" style="width: 45%"></div>
+              </div>
+            </div>
+
+            <div class="space-y-1">
+              <div class="flex justify-between text-[11px]">
+                <span class="text-silver-200">Governança Ética &amp; Controles</span>
+                <span id="bar-txt-2" class="font-display font-bold text-proverde-300">50%</span>
+              </div>
+              <div class="h-1.5 bg-white/10 rounded-full overflow-hidden">
+                <div id="bar-fill-2" class="h-full bg-gradient-to-r from-proverde-500 to-proverde-300 rounded-full transition-all duration-300" style="width: 50%"></div>
+              </div>
+            </div>
+
+            <div class="space-y-1">
+              <div class="flex justify-between text-[11px]">
+                <span class="text-silver-200">Prontidão p/ Crédito Verde</span>
+                <span id="bar-txt-3" class="font-display font-bold text-proverde-300">40%</span>
+              </div>
+              <div class="h-1.5 bg-white/10 rounded-full overflow-hidden">
+                <div id="bar-fill-3" class="h-full bg-gradient-to-r from-proverde-500 to-proverde-300 rounded-full transition-all duration-300" style="width: 40%"></div>
+              </div>
+            </div>
+
+            <div class="space-y-1">
+              <div class="flex justify-between text-[11px]">
+                <span class="text-silver-200">Conformidade GRI / SASB / ISSB</span>
+                <span id="bar-txt-4" class="font-display font-bold text-proverde-300">35%</span>
+              </div>
+              <div class="h-1.5 bg-white/10 rounded-full overflow-hidden">
+                <div id="bar-fill-4" class="h-full bg-gradient-to-r from-proverde-500 to-proverde-300 rounded-full transition-all duration-300" style="width: 35%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plano de Ação Recomendado -->
+          <div class="p-4 rounded-2xl bg-pine-900/65 border border-proverde-300/30 space-y-1.5">
+            <p class="text-[10px] font-display font-extrabold uppercase tracking-widest text-proverde-300">Prioridade Recomendada ProVerde</p>
+            <p id="sim-priority-action" class="text-xs text-silver-100 leading-relaxed">
+              Iniciar pelo Pilar 04 &amp; 03: implantar matriz de materialidade GRI/ISSB e dossiê técnico de KPIs para qualificar a empresa junto a linhas de Crédito Verde.
+            </p>
+          </div>
+
+          <!-- CTA que Preenche Automaticamente o Formulário Abaixo -->
+          <button
+            type="button"
+            onclick="transferDiagnosisToForm()"
+            class="btn-pv-primary w-full justify-between pl-5 pr-2.5 py-3 text-xs sm:text-sm"
+          >
+            <span>Enviar Diagnóstico para um Especialista</span>
+            <span class="arrow-orb"><i data-lucide="send" class="w-4 h-4"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. CONTACTO EXECUTIVO B2B & PERGUNTAS ESTRATÉGICAS
+       ========================================================================== -->
+<section id="contato" class="py-20 lg:py-28 bg-pv-mineral-soft border-t border-proverde-500/15">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-12 gap-12 items-start">
+
+      <!-- Coluna Esquerda: Canais Diretos + Compromisso de Confidencialidade -->
+      <div class="lg:col-span-5 space-y-6 reveal">
+        <div class="space-y-3">
+          <span class="inline-flex items-center gap-2 text-xs font-display font-extrabold uppercase tracking-[0.2em] text-proverde-600">
+            <span class="w-7 h-0.5 bg-proverde-500 rounded-full"></span>
+            ATENDIMENTO EXECUTIVO B2B
+          </span>
+          <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-obsidian-950 tracking-tight leading-tight">
+            Vamos transformar os desafios ESG da sua operação em resultado?
+          </h2>
+          <p class="text-slate-700 text-sm sm:text-base leading-relaxed">
+            Converse diretamente com consultores seniores especializados em estruturar resiliência operacional, relatórios auditáveis e captação verde para médias e grandes empresas.
+          </p>
+        </div>
+
+        <!-- Cartão Institucional com Logo Horizontal Completa -->
+        <div class="pv-gradient-card-dark rounded-3xl p-6 text-white space-y-5">
+          <div class="flex items-center gap-3 pb-4 border-b border-white/10">
+            <svg class="w-11 h-11 shrink-0" viewBox="0 0 200 200" aria-hidden="true"><use href="#proverde-emblem-3d"></use></svg>
+            <div>
+              <p class="font-display text-xl font-bold leading-none">
+                <span class="pv-wordmark-pro">Pro</span><span class="pv-wordmark-verde">Verde</span>
+              </p>
+              <p class="text-[11px] text-silver-400 mt-1">Mesa Executiva São Paulo · Atuação Nacional</p>
+            </div>
+          </div>
+
+          <div class="space-y-3.5 text-sm">
+            <div class="flex items-center justify-between gap-3 p-3 rounded-2xl bg-white/[0.04] border border-white/10">
+              <div class="flex items-center gap-3 truncate">
+                <i data-lucide="mail" class="w-4 h-4 text-proverde-300 shrink-0"></i>
+                <span class="text-xs sm:text-sm text-silver-100 truncate">executivoProVerde@gmail.com</span>
+              </div>
+              <button type="button" onclick="copyText('executivoProVerde@gmail.com', 'E-mail executivo copiado!')" class="px-2.5 py-1 rounded-lg bg-proverde-500/25 hover:bg-proverde-500/40 text-proverde-200 text-xs font-semibold shrink-0">
+                Copiar
+              </button>
+            </div>
+
+            <div class="flex items-center gap-3 p-3 rounded-2xl bg-white/[0.04] border border-white/10">
+              <i data-lucide="phone-call" class="w-4 h-4 text-proverde-300 shrink-0"></i>
+              <span class="text-xs sm:text-sm text-silver-100">+55 (11) 3480-9200 · Atendimento Seg–Sex, 8h às 19h</span>
+            </div>
+
+            <div class="flex items-center gap-3 p-3 rounded-2xl bg-white/[0.04] border border-white/10">
+              <i data-lucide="lock" class="w-4 h-4 text-proverde-300 shrink-0"></i>
+              <span class="text-xs text-silver-200">Termo de Confidencialidade (NDA) padrão desde a 1ª reunião.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mini Accordion Rápido de Dúvidas Decisórias -->
+        <div class="space-y-2.5">
+          <div class="pv-gradient-card-light rounded-2xl overflow-hidden">
+            <button type="button" onclick="toggleFaqItem(0)" class="w-full px-5 py-4 text-left flex items-center justify-between gap-3 font-display font-bold text-xs sm:text-sm text-obsidian-950">
+              <span>Quanto tempo leva o Diagnóstico Rápido da ProVerde?</span>
+              <i data-lucide="chevron-down" id="faq-chevron-0" class="w-4 h-4 text-proverde-600 transition-transform"></i>
+            </button>
+            <div id="faq-ans-0" class="px-5 pb-4 text-xs text-slate-600 leading-relaxed">
+              Entre 15 e 21 dias úteis mapeamos os focos críticos de escassez, riscos regulatórios e oportunidades rápidas de eficiência operacional, entregando um plano executivo priorizado.
+            </div>
+          </div>
+
+          <div class="pv-gradient-card-light rounded-2xl overflow-hidden">
+            <button type="button" onclick="toggleFaqItem(1)" class="w-full px-5 py-4 text-left flex items-center justify-between gap-3 font-display font-bold text-xs sm:text-sm text-obsidian-950">
+              <span>Atendem empresas que ainda não possuem relatório ESG?</span>
+              <i data-lucide="chevron-down" id="faq-chevron-1" class="w-4 h-4 text-proverde-600 transition-transform"></i>
+            </button>
+            <div id="faq-ans-1" class="hidden px-5 pb-4 text-xs text-slate-600 leading-relaxed">
+              Sim. Estruturamos desde a primeira matriz de materialidade e governança interna até relatórios completos GRI, SASB e ISSB prontos para bancos e investidores.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coluna Direita: Formulário Executivo B2B Validado com Gateway de E-mail -->
+      <div class="lg:col-span-7 pv-gradient-card-light rounded-[32px] p-6 sm:p-10 reveal">
+        <div class="flex flex-wrap items-center justify-between gap-2 pb-5 mb-6 border-b border-proverde-500/15">
+          <div>
+            <span class="text-[11px] font-display font-extrabold uppercase tracking-wider text-proverde-600">Solicitação de Reunião Técnica</span>
+            <h3 class="font-display text-xl sm:text-2xl font-extrabold text-obsidian-950">Agende um Diagnóstico Executivo</h3>
+          </div>
+          <span class="px-3 py-1 rounded-full text-xs font-semibold bg-pine-900 text-proverde-300">SLA: Retorno em até 24h úteis</span>
+        </div>
+
+        <form id="executive-form" action="https://formsubmit.co/executivoProVerde@gmail.com" method="POST" onsubmit="submitExecutiveForm(event)" novalidate class="space-y-5">
+          <!-- Proteção Anti-Spam (Honeypot invisível) -->
+          <input type="text" id="f-honey" name="_honey" class="hidden" tabindex="-1" autocomplete="off" />
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label for="f-nome" class="block text-xs font-display font-bold text-obsidian-950 mb-1.5">Nome Completo *</label>
+              <input id="f-nome" name="nome" type="text" required placeholder="Ex.: Ricardo Vasconcelos" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300/80 text-sm text-obsidian-950 focus:outline-none focus:border-proverde-500" />
+              <p id="err-f-nome" class="hidden text-xs text-rose-600 mt-1">Informe seu nome completo.</p>
+            </div>
+
+            <div>
+              <label for="f-cargo" class="block text-xs font-display font-bold text-obsidian-950 mb-1.5">Cargo Executivo *</label>
+              <input id="f-cargo" name="cargo" type="text" required placeholder="Ex.: Diretor Financeiro (CFO) / Gerente ESG" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300/80 text-sm text-obsidian-950 focus:outline-none focus:border-proverde-500" />
+              <p id="err-f-cargo" class="hidden text-xs text-rose-600 mt-1">Informe seu cargo atual.</p>
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label for="f-empresa" class="block text-xs font-display font-bold text-obsidian-950 mb-1.5">Empresa *</label>
+              <input id="f-empresa" name="empresa" type="text" required placeholder="Nome da organização" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300/80 text-sm text-obsidian-950 focus:outline-none focus:border-proverde-500" />
+              <p id="err-f-empresa" class="hidden text-xs text-rose-600 mt-1">Informe o nome da empresa.</p>
+            </div>
+
+            <div>
+              <label for="f-email" class="block text-xs font-display font-bold text-obsidian-950 mb-1.5">E-mail Corporativo *</label>
+              <input id="f-email" name="email" type="email" required placeholder="nome@empresa.com.br" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300/80 text-sm text-obsidian-950 focus:outline-none focus:border-proverde-500" />
+              <p id="err-f-email" class="hidden text-xs text-rose-600 mt-1">Informe um e-mail corporativo válido.</p>
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label for="f-porte" class="block text-xs font-display font-bold text-obsidian-950 mb-1.5">Porte da Empresa</label>
+              <select id="f-porte" name="porte" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300/80 text-sm text-obsidian-950 focus:outline-none focus:border-proverde-500">
+                <option value="Média Empresa">Média Empresa (R$ 40M – R$ 300M/ano)</option>
+                <option value="Grande Empresa">Grande Empresa (+R$ 300M/ano)</option>
+                <option value="Grupo Industrial / Exportador">Grupo Industrial / Exportador</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="f-desafio" class="block text-xs font-display font-bold text-obsidian-950 mb-1.5">Desafio Principal</label>
+              <select id="f-desafio" name="desafio" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300/80 text-sm text-obsidian-950 focus:outline-none focus:border-proverde-500">
+                <option value="Diagnóstico Rápido / Cenário de Escassez">01 · Diagnóstico Rápido / Escassez ESG</option>
+                <option value="Eficiência Operacional Hands-On">02 · Adequação Financeira &amp; Operacional</option>
+                <option value="Desbloqueio de Crédito Verde & Investidores">03 · Desbloqueio de Crédito Verde</option>
+                <option value="Conformidade GRI, SASB & ISSB">04 · Relatórios GRI, SASB &amp; ISSB</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="f-resumo" class="block text-xs font-display font-bold text-obsidian-950 mb-1.5">Resumo do Diagnóstico / Contexto da Demanda *</label>
+            <textarea
+              id="f-resumo"
+              name="resumo"
+              rows="4"
+              required
+              placeholder="Descreva brevemente seu cenário atual ou utilize o Simulador acima para preencher automaticamente este campo..."
+              class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300/80 text-sm text-obsidian-950 focus:outline-none focus:border-proverde-500"
+            ></textarea>
+            <p id="err-f-resumo" class="hidden text-xs text-rose-600 mt-1">Descreva brevemente o desafio ou anexe o simulador.</p>
+          </div>
+
+          <!-- Alerta de Erro de Envio (só aparece se houver falha de rede) -->
+          <div id="form-gateway-error" class="hidden rounded-2xl bg-rose-50 border border-rose-200 px-4 py-3 text-xs text-rose-700 leading-relaxed"></div>
+
+          <div class="pt-2 flex flex-wrap items-center justify-between gap-4">
+            <button id="btn-submit-exec" type="submit" class="btn-pv-primary pl-6 pr-2.5 py-3 text-sm disabled:opacity-60 disabled:cursor-not-allowed">
+              <span id="btn-submit-label">Confirmar Solicitação Executiva</span>
+              <span class="arrow-orb"><i data-lucide="arrow-right" class="w-4 h-4"></i></span>
+            </button>
+            <span class="text-xs text-slate-500 flex items-center gap-1.5">
+              <i data-lucide="shield-check" class="w-4 h-4 text-proverde-600"></i>
+              Conformidade LGPD &amp; Sigilo Corporativo
+            </span>
+          </div>
+        </form>
+
+        <!-- Confirmação Elegante Pós-Envio -->
+        <div id="form-confirmation" class="hidden pv-gradient-card-dark rounded-3xl p-7 text-white space-y-4">
+          <div class="flex items-center gap-3.5">
+            <svg class="w-12 h-12 shrink-0" viewBox="0 0 200 200" aria-hidden="true"><use href="#proverde-emblem-3d"></use></svg>
+            <div>
+              <p class="text-xs uppercase tracking-widest text-proverde-300 font-bold">Atendimento Prioritário Iniciado</p>
+              <h4 class="font-display text-xl font-extrabold">Protocolo <span id="protocol-code">PV-2026-9104</span></h4>
+            </div>
+          </div>
+          <p class="text-sm text-silver-200 leading-relaxed">
+            Recebemos os dados da sua operação em nossa mesa executiva. Um sócio ou consultor sênior da ProVerde entrará em contato em até 24 horas úteis com uma análise preliminar dedicada.
+          </p>
+          <button type="button" onclick="resetExecutiveForm()" class="px-4 py-2 rounded-full bg-white/10 hover:bg-white/15 text-xs font-display font-bold text-proverde-300 transition-colors">
+            Enviar nova solicitação
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ==========================================================================
+       8. RODAPÉ INSTITUCIONAL COMPLETO COM A LOGO HORIZONTAL OFICIAL PROVERDE
+       ========================================================================== -->
+  <footer class="bg-obsidian-950 text-silver-200 pt-16 pb-10 border-t border-proverde-300/20 relative overflow-hidden">
+    <!-- Brilho Sutil de Fundo -->
+    <div class="pointer-events-none absolute bottom-0 left-1/2 -translate-x-1/2 w-[680px] h-[220px] bg-proverde-500/10 blur-[120px] rounded-full"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 relative z-10">
+      <!-- Topo: Logo Horizontal Completa Oficial (54px) + Newsletter ESG -->
+      <div class="grid lg:grid-cols-12 gap-10 pb-12 border-b border-white/10 items-center">
+        <div class="lg:col-span-6 space-y-4">
+          <!-- LOGO HORIZONTAL COMPLETA VETORIAL OFICIAL -->
+          <a href="#inicio" class="pv-brand-lockup inline-flex items-center gap-3.5 focus:outline-none">
+            <svg class="h-[54px] w-[54px] shrink-0 overflow-visible" viewBox="0 0 200 200" role="img" aria-label="Emblema Oficial ProVerde">
+              <use href="#proverde-emblem-3d"></use>
+            </svg>
+            <div class="flex flex-col">
+              <span class="font-display text-[32px] font-bold tracking-[-0.035em] leading-none">
+                <span class="pv-wordmark-pro">Pro</span><span class="pv-wordmark-verde">Verde</span>
+              </span>
+              <span class="text-[10px] uppercase tracking-[0.22em] text-silver-400 font-semibold mt-1.5">
+                Planejamento Estratégico &amp; Identidade ESG
+              </span>
+            </div>
+          </a>
+
+          <p class="text-sm text-silver-400 max-w-lg leading-relaxed">
+            Transformando desafios de sustentabilidade em vantagens competitivas reais, revertendo cenários de escassez e liderando a transição corporativa para uma economia verde, ética e responsável.
+          </p>
+        </div>
+
+        <!-- Newsletter Executiva -->
+        <div class="lg:col-span-6 pv-gradient-card-dark rounded-3xl p-6">
+          <p class="font-display font-bold text-white text-base">Boletim Executivo ProVerde · Normas &amp; Crédito Verde</p>
+          <p class="text-xs text-silver-400 mt-1 mb-4">Atualizações mensais diretas sobre GRI, SASB, ISSB (IFRS S1/S2) e linhas de financiamento sustentável.</p>
+          <form onsubmit="submitNewsletter(event)" class="flex flex-col sm:flex-row gap-2.5">
+            <input id="news-email" type="email" required placeholder="Seu e-mail corporativo" class="flex-1 px-4 py-3 rounded-full bg-obsidian-950 border border-white/15 text-sm text-white placeholder-silver-600 focus:outline-none focus:border-proverde-300" />
+            <button type="submit" class="btn-pv-primary px-6 py-3 text-xs sm:text-sm justify-center shrink-0">
+              <span>Inscrever-se</span>
+            </button>
+          </form>
+          <p id="news-msg" class="hidden text-xs text-proverde-300 font-medium mt-2.5"></p>
+        </div>
+      </div>
+
+      <!-- Colunas de Navegação e Frameworks -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-sm">
+        <div class="space-y-3">
+          <h4 class="font-display font-bold text-white text-xs uppercase tracking-widest">A ProVerde</h4>
+          <ul class="space-y-2 text-silver-400">
+            <li><a href="#a-proverde" class="hover:text-proverde-300 transition-colors">Missão &amp; Visão Estratégica</a></li>
+            <li><a href="#a-proverde" class="hover:text-proverde-300 transition-colors">Sustentabilidade Prática</a></li>
+            <li><a href="#compromissos" class="hover:text-proverde-300 transition-colors">Diferenciais Hands-On</a></li>
+            <li><a href="#simulador" class="hover:text-proverde-300 transition-colors">Índice de Resiliência ESG</a></li>
+          </ul>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="font-display font-bold text-white text-xs uppercase tracking-widest">Soluções B2B</h4>
+          <ul class="space-y-2 text-silver-400">
+            <li><button type="button" onclick="openSolutionModal(0)" class="hover:text-proverde-300 transition-colors text-left">01. Diagnóstico Rápido &amp; Escassez</button></li>
+            <li><button type="button" onclick="openSolutionModal(1)" class="hover:text-proverde-300 transition-colors text-left">02. Adequação Financeira &amp; Operacional</button></li>
+            <li><button type="button" onclick="openSolutionModal(2)" class="hover:text-proverde-300 transition-colors text-left">03. Crédito Verde &amp; Investidores</button></li>
+            <li><button type="button" onclick="openSolutionModal(3)" class="hover:text-proverde-300 transition-colors text-left">04. Governança GRI, SASB &amp; ISSB</button></li>
+          </ul>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="font-display font-bold text-white text-xs uppercase tracking-widest">Frameworks Atendidos</h4>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-xl bg-pine-900/70 border border-proverde-300/25 text-xs font-display font-bold text-proverde-300">GRI Standards</span>
+            <span class="px-3 py-1 rounded-xl bg-pine-900/70 border border-proverde-300/25 text-xs font-display font-bold text-proverde-300">SASB</span>
+            <span class="px-3 py-1 rounded-xl bg-pine-900/70 border border-proverde-300/25 text-xs font-display font-bold text-proverde-300">ISSB · IFRS S1/S2</span>
+            <span class="px-3 py-1 rounded-xl bg-pine-900/70 border border-proverde-300/25 text-xs font-display font-bold text-silver-200">GHG Protocol</span>
+            <span class="px-3 py-1 rounded-xl bg-pine-900/70 border border-proverde-300/25 text-xs font-display font-bold text-silver-200">ODS ONU</span>
+          </div>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="font-display font-bold text-white text-xs uppercase tracking-widest">Escritório Central</h4>
+          <p class="text-xs text-silver-400 leading-relaxed">
+            Av. Paulista, 1374 — Bela Vista<br />
+            São Paulo · SP · Brasil<br />
+            Atendimento nacional a médias e grandes empresas.
+          </p>
+          <a href="#inicio" class="inline-flex items-center gap-1.5 text-xs font-display font-bold text-proverde-300 hover:underline pt-1">
+            <span>Voltar ao topo</span>
+            <i data-lucide="arrow-up" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-silver-600">
+        <p>© 2026 ProVerde Consultoria em Sustentabilidade &amp; Identidade ESG. Todos os direitos reservados.</p>
+        <p>Zero Greenwashing · Governança Ética &amp; Impacto Positivo 360º</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL EXECUTIVO DAS SOLUÇÕES (01 A 04) COM A LOGO HORIZONTAL OFICIAL
+       ========================================================================== -->
+  <div id="solution-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-obsidian-950/85 backdrop-blur-md" role="dialog" aria-modal="true" aria-labelledby="sol-modal-title">
+    <div class="pv-gradient-card-dark rounded-[32px] max-w-2xl w-full max-h-[88vh] overflow-y-auto p-6 sm:p-9 text-white relative">
+      <div class="flex items-center justify-between pb-4 mb-5 border-b border-white/10">
+        <div class="flex items-center gap-2.5">
+          <svg class="w-8 h-8 shrink-0" viewBox="0 0 200 200" aria-hidden="true"><use href="#proverde-emblem-3d"></use></svg>
+          <span class="font-display text-lg font-bold">
+            <span class="pv-wordmark-pro">Pro</span><span class="pv-wordmark-verde">Verde</span>
+          </span>
+        </div>
+        <button type="button" onclick="closeSolutionModal()" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors" aria-label="Fechar modal">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <div id="solution-modal-body" class="space-y-5"></div>
+    </div>
+  </div>
+
+  <!-- Notificação Toast Elegante (Sem uso de alert) -->
+  <div id="pv-toast" class="fixed bottom-6 right-6 z-50 pointer-events-none opacity-0 translate-y-4 transition-all duration-300 pv-gradient-card-dark px-5 py-3.5 rounded-2xl flex items-center gap-3 max-w-sm text-white">
+    <svg class="w-6 h-6 shrink-0" viewBox="0 0 200 200" aria-hidden="true"><use href="#proverde-emblem-3d"></use></svg>
+    <span id="pv-toast-text" class="text-xs sm:text-sm font-medium text-silver-100"></span>
+  </div>
+
+  <!-- ==========================================================================
+       JAVASCRIPT COMPLETO: FAVICON DINÂMICO, CANVAS AURORA, ORBE 3D, CARROSSEL,
+       INDICADOR DE MENU, SIMULADOR EM TEMPO REAL & MODAIS EXECUTIVOS
+       ========================================================================== -->
+  <script>
+    // 1. Geração Dinâmica do Favicon Oficial com o Emblema 3D ProVerde
+    function injectOfficialFavicon() {
+      try {
+        const faviconSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+          <rect width="200" height="200" rx="44" fill="#05090A"/>
+          <path d="M46 98 C52 56,90 36,134 35 C152 35,164 30,172 22 C156 44,132 53,102 58 C74 63,56 76,46 98 Z" fill="#94A1AA"/>
+          <path d="M54 134 C72 112,132 62,178 18 C178 66,166 108,140 125 C114 141,80 138,54 134 Z" fill="#127D80"/>
+          <path d="M28 174 C33 122,62 79,108 67 C142 58,164 42,178 18 C160 58,132 90,92 112 C58 130,38 148,28 174 Z" fill="#4CE8D4"/>
+          <path d="M32 185 C44 155,72 146,108 145 C134 144,152 135,164 118 C153 151,126 169,92 168 C62 167,44 172,32 185 Z" fill="#246E5F"/>
+        </svg>`;
+        const link = document.createElement('link');
+        link.rel = 'icon';
+        link.type = 'image/svg+xml';
+        link.href = 'data:image/svg+xml,' + encodeURIComponent(faviconSvg);
+        document.head.appendChild(link);
+      } catch (e) {
+        console.warn('Favicon dinâmico ignorado:', e);
+      }
+    }
+
+    function initIcons() {
+      try {
+        if (window.lucide) window.lucide.createIcons();
+      } catch (e) {
+        console.warn('Lucide indisponível:', e);
+      }
+    }
+
+    // Toast elegante sem usar alert()
+    let toastTimer = null;
+    function showToast(msg) {
+      const box = document.getElementById('pv-toast');
+      const txt = document.getElementById('pv-toast-text');
+      if (!box || !txt) return;
+      txt.textContent = msg;
+      box.classList.remove('opacity-0', 'translate-y-4');
+      box.classList.add('opacity-100', 'translate-y-0');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        box.classList.add('opacity-0', 'translate-y-4');
+        box.classList.remove('opacity-100', 'translate-y-0');
+      }, 3400);
+    }
+
+    // Cópia segura para área de transferência
+    function copyText(value, feedback) {
+      try {
+        const area = document.createElement('textarea');
+        area.value = value;
+        area.style.position = 'fixed';
+        area.style.opacity = '0';
+        document.body.appendChild(area);
+        area.select();
+        document.execCommand('copy');
+        document.body.removeChild(area);
+        showToast(feedback || 'Copiado!');
+      } catch (e) {
+        showToast('Não foi possível copiar automaticamente.');
+      }
+    }
+
+    // Alternância de Alto Contraste
+    function toggleHighContrast() {
+      document.body.classList.toggle('high-contrast');
+      const active = document.body.classList.contains('high-contrast');
+      const btn = document.getElementById('contrast-toggle-btn');
+      if (btn) btn.setAttribute('aria-pressed', String(active));
+      showToast(active ? 'Modo de alto contraste ativado.' : 'Contraste padrão restaurado.');
+    }
+
+    /* ==========================================================================
+       2. MENU MOBILE, MEGA-DROPDOWN & INDICADOR LUMINOSO DESLIZANTE
+       ========================================================================== */
+    function toggleMobileDrawer() {
+      const drawer = document.getElementById('mobile-drawer');
+      const btn = document.getElementById('mobile-drawer-btn');
+      if (!drawer) return;
+      const opening = drawer.classList.contains('hidden');
+      drawer.classList.toggle('hidden');
+      if (btn) btn.setAttribute('aria-expanded', String(opening));
+    }
+
+    function closeMobileDrawer() {
+      const drawer = document.getElementById('mobile-drawer');
+      if (drawer) drawer.classList.add('hidden');
+    }
+
+    function toggleMegaDropdown(e) {
+      e.stopPropagation();
+      const wrap = document.getElementById('solucoes-dropdown-wrap');
+      if (wrap) wrap.classList.toggle('open');
+    }
+
+    function closeMegaDropdown() {
+      const wrap = document.getElementById('solucoes-dropdown-wrap');
+      if (wrap) wrap.classList.remove('open');
+    }
+
+    document.addEventListener('click', (e) => {
+      const wrap = document.getElementById('solucoes-dropdown-wrap');
+      if (wrap && !wrap.contains(e.target)) {
+        wrap.classList.remove('open');
+      }
+    });
+
+    // Indicador deslizante na Navbar Desktop
+    function moveNavIndicator(el) {
+      const indicator = document.getElementById('nav-active-indicator');
+      const nav = document.getElementById('desktop-nav');
+      if (!indicator || !nav || !el) return;
+      const navRect = nav.getBoundingClientRect();
+      const elRect = el.getBoundingClientRect();
+      indicator.style.left = `${elRect.left - navRect.left + 12}px`;
+      indicator.style.width = `${Math.max(24, elRect.width - 24)}px`;
+    }
+
+    /* ==========================================================================
+       3. HERO CARROSSEL DE 3 CENÁRIOS + TELEMETRIA DINÂMICA DO ORBE 3D
+       ========================================================================== */
+    const heroScenarios = [
+      {
+        tag: 'CENÁRIO 01 · METODOLOGIA PRÓPRIA HANDS-ON',
+        headingHtml: 'Revertemos cenários de escassez em <span class="text-grad-turquoise-silver">vantagem competitiva e crescimento seguro</span>',
+        desc: 'Orientamos e capacitamos empresas de médio e grande porte na integração prática de ESG — adequando a estratégia à sua realidade financeira e operacional sem soluções meramente teóricas.',
+        btn1Label: 'Simular Maturidade ESG',
+        btn1Href: '#simulador',
+        btn2Label: 'Explorar Soluções Hands-On',
+        btn2Href: '#solucoes',
+        b1Kicker: 'Resposta Rápida',
+        b1Val: 'Diagnóstico de Escassez',
+        b2Kicker: 'Padrão Global',
+        b2Val: 'GRI · SASB · ISSB',
+        b3Kicker: 'Valor Equilibrado',
+        b3Val: 'Impacto Positivo 360º'
+      },
+      {
+        tag: 'CENÁRIO 02 · FINANÇAS SUSTENTÁVEIS & APORTES',
+        headingHtml: 'Destrave linhas de <span class="text-grad-turquoise-silver">Crédito Verde e atraia investidores</span> com metas auditáveis',
+        desc: 'Estruturamos os indicadores técnicos, relatórios ESG e metas de performance exigidos por bancos e fundos para reduzir seu custo de capital e proteger seu valor de mercado.',
+        btn1Label: 'Avaliar Prontidão p/ Crédito',
+        btn1Href: '#simulador',
+        btn2Label: 'Ver Pilar de Capital Verde',
+        btn2Href: '#solucoes',
+        b1Kicker: 'Liquidez B2B',
+        b1Val: 'Dossiê de Crédito Verde',
+        b2Kicker: 'Risco & Retorno',
+        b2Val: 'Metas SPTs Auditáveis',
+        b3Kicker: 'Competitividade',
+        b3Val: 'Menor Spread Bancário'
+      },
+      {
+        tag: 'CENÁRIO 03 · TRANSPARÊNCIA & CONFORMIDADE GLOBAL',
+        headingHtml: 'Governança rigorosa <span class="text-grad-turquoise-silver">contra o greenwashing</span> nos padrões GRI, SASB e ISSB',
+        desc: 'Conduzimos a atualização sustentável de empresas tradicionais com clareza absoluta na governança, lastro documental e conformidade com as normas IFRS S1/S2.',
+        btn1Label: 'Solicitar Diagnóstico Executivo',
+        btn1Href: '#contato',
+        btn2Label: 'Comparar Diferenciais E·S·G',
+        btn2Href: '#compromissos',
+        b1Kicker: 'Integridade',
+        b1Val: 'Zero Greenwashing',
+        b2Kicker: 'Normas IFRS S1/S2',
+        b2Val: 'Conformidade CVM / ISSB',
+        b3Kicker: 'Reputação Blindada',
+        b3Val: '100% Rastreável'
+      }
+    ];
+
+    let currentHeroIdx = 0;
+    let heroElapsedPct = 0;
+    let heroPlaying = true;
+    const HERO_INTERVAL_MS = 6800;
+    const HERO_STEP_MS = 68;
+
+    function selectHeroSlide(index) {
+      currentHeroIdx = (index + heroScenarios.length) % heroScenarios.length;
+      heroElapsedPct = 0;
+      const s = heroScenarios[currentHeroIdx];
+
+      document.getElementById('hero-tag').textContent = s.tag;
+      document.getElementById('hero-heading').innerHTML = s.headingHtml;
+      document.getElementById('hero-description').textContent = s.desc;
+      document.getElementById('hero-btn-primary-label').textContent = s.btn1Label;
+      document.getElementById('hero-btn-primary').setAttribute('href', s.btn1Href);
+      document.getElementById('hero-btn-secondary-label').textContent = s.btn2Label;
+      document.getElementById('hero-btn-secondary').setAttribute('href', s.btn2Href);
+
+      // Atualiza os 3 badges flutuantes ao redor do Emblema Oficial 3D
+      document.getElementById('orb-badge-1-kicker').textContent = s.b1Kicker;
+      document.getElementById('orb-badge-1-val').textContent = s.b1Val;
+      document.getElementById('orb-badge-2-kicker').textContent = s.b2Kicker;
+      document.getElementById('orb-badge-2-val').textContent = s.b2Val;
+      document.getElementById('orb-badge-3-kicker').textContent = s.b3Kicker;
+      document.getElementById('orb-badge-3-val').textContent = s.b3Val;
+
+      for (let i = 0; i < 3; i++) {
+        const bar = document.getElementById(`hero-prog-${i}`);
+        const idxEl = document.getElementById(`hero-idx-${i}`);
+        const lblEl = document.getElementById(`hero-lbl-${i}`);
+        if (bar) bar.style.width = i < currentHeroIdx ? '100%' : '0%';
+        if (idxEl) {
+          idxEl.classList.toggle('text-proverde-300', i === currentHeroIdx);
+          idxEl.classList.toggle('text-silver-400', i !== currentHeroIdx);
+        }
+        if (lblEl) {
+          lblEl.classList.toggle('text-white', i === currentHeroIdx);
+          lblEl.classList.toggle('text-silver-400', i !== currentHeroIdx);
+        }
+      }
+    }
+
+    function stepHeroSlide(dir) {
+      selectHeroSlide(currentHeroIdx + dir);
+    }
+
+    function toggleHeroPlayback() {
+      heroPlaying = !heroPlaying;
+      const btn = document.getElementById('hero-playpause-btn');
+      if (btn) {
+        btn.innerHTML = heroPlaying
+          ? '<i data-lucide="pause" class="w-4 h-4"></i>'
+          : '<i data-lucide="play" class="w-4 h-4"></i>';
+        initIcons();
+      }
+    }
+
+    /* ==========================================================================
+       4. INTERAÇÃO 3D TILT NO ORBE DO EMBLEMA + CANVAS DE ONDAS ORGÂNICAS
+       ========================================================================== */
+    function initHero3DTilt() {
+      const orb = document.getElementById('hero-3d-orb');
+      if (!orb) return;
+
+      orb.addEventListener('mousemove', (e) => {
+        const rect = orb.getBoundingClientRect();
+        const x = (e.clientX - rect.left) / rect.width - 0.5;
+        const y = (e.clientY - rect.top) / rect.height - 0.5;
+        const rotY = x * 16;
+        const rotX = -y * 16;
+        orb.style.transform = `rotateX(${rotX.toFixed(2)}deg) rotateY(${rotY.toFixed(2)}deg)`;
+      });
+
+      orb.addEventListener('mouseleave', () => {
+        orb.style.transform = 'rotateX(0deg) rotateY(0deg)';
+      });
+    }
+
+    // Canvas de Ondas Orgânicas e Partículas nas cores oficiais ProVerde
+    let canvasCtx = null;
+    let canvasW = 0;
+    let canvasH = 0;
+    let waveTick = 0;
+    const particles = [];
+
+    function resizeAuroraCanvas() {
+      const canvas = document.getElementById('hero-aurora-canvas');
+      if (!canvas) return;
+      const parent = canvas.parentElement;
+      canvasW = canvas.width = parent.clientWidth;
+      canvasH = canvas.height = parent.clientHeight;
+    }
+
+    function initAuroraCanvas() {
+      const canvas = document.getElementById('hero-aurora-canvas');
+      if (!canvas) return;
+      canvasCtx = canvas.getContext('2d');
+      resizeAuroraCanvas();
+
+      particles.length = 0;
+      const count = Math.min(34, Math.max(16, Math.floor(canvasW / 45)));
+      for (let i = 0; i < count; i++) {
+        particles.push({
+          x: Math.random() * canvasW,
+          y: Math.random() * canvasH,
+          r: Math.random() * 2.1 + 0.7,
+          vx: (Math.random() - 0.5) * 0.35,
+          vy: -Math.random() * 0.35 - 0.1,
+          color: i % 3 === 0 ? 'rgba(217,226,231,0.38)' : 'rgba(76,232,212,0.42)'
+        });
+      }
+    }
+
+    function animateAuroraCanvas() {
+      if (!canvasCtx) return;
+      canvasCtx.clearRect(0, 0, canvasW, canvasH);
+      waveTick += 0.012;
+
+      // 3 ondas orgânicas inspiradas nas 3 lâminas do Emblema ProVerde
+      const waveConfigs = [
+        { amp: 28, freq: 0.0028, speed: 1.0, yRatio: 0.68, stroke: 'rgba(76, 232, 212, 0.16)', width: 2 },
+        { amp: 36, freq: 0.0021, speed: 0.7, yRatio: 0.76, stroke: 'rgba(50, 168, 150, 0.14)', width: 2.5 },
+        { amp: 22, freq: 0.0034, speed: 1.3, yRatio: 0.58, stroke: 'rgba(155, 168, 176, 0.10)', width: 1.4 }
+      ];
+
+      waveConfigs.forEach((w) => {
+        canvasCtx.beginPath();
+        for (let x = 0; x <= canvasW; x += 18) {
+          const y = canvasH * w.yRatio + Math.sin(x * w.freq + waveTick * w.speed) * w.amp;
+          if (x === 0) canvasCtx.moveTo(x, y);
+          else canvasCtx.lineTo(x, y);
+        }
+        canvasCtx.strokeStyle = w.stroke;
+        canvasCtx.lineWidth = w.width;
+        canvasCtx.stroke();
+      });
+
+      // Partículas sutis flutuantes
+      particles.forEach((p) => {
+        p.x += p.vx;
+        p.y += p.vy;
+        if (p.y < -10) p.y = canvasH + 10;
+        if (p.x < -10) p.x = canvasW + 10;
+        if (p.x > canvasW + 10) p.x = -10;
+
+        canvasCtx.beginPath();
+        canvasCtx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        canvasCtx.fillStyle = p.color;
+        canvasCtx.fill();
+      });
+
+      requestAnimationFrame(animateAuroraCanvas);
+    }
+
+    /* ==========================================================================
+       5. DOSSIÊ EXECUTIVO EM MODAL PARA AS SOLUÇÕES (01 A 04)
+       ========================================================================== */
+    const solutionsCatalog = [
+      {
+        code: '01',
+        title: 'Diagnóstico Rápido para Crise e Escassez ESG',
+        horizon: 'Prazo estimado: 15 a 21 dias úteis',
+        summary: 'Metodologia proprietária da ProVerde desenhada para médias e grandes empresas sob pressão imediata de escassez de insumos, passivos ambientais ou exigências urgentes de clientes e órgãos reguladores.',
+        deliverables: [
+          'Varredura 360º de vulnerabilidades operacionais, hídricas, energéticas e regulatórias',
+          'Plano de ação emergencial (Quick Wins) focado em preservação de caixa e continuidade',
+          'Mapeamento preliminar de riscos materiais para apresentação ao Conselho / Diretoria',
+          'Cronograma tático de transição da vulnerabilidade para o crescimento seguro'
+        ],
+        kpis: 'Redução de perdas críticas · Mitigação de autuações · Alívio rápido de OPEX'
+      },
+      {
+        code: '02',
+        title: 'Adequação Estratégica à Realidade Financeira e Operacional',
+        horizon: 'Implementação modular Hands-On (3 a 6 meses)',
+        summary: 'Diferente de consultorias puramente teóricas, adequamos cada projeto sustentável ao orçamento e à capacidade operacional específica de médias e grandes empresas.',
+        deliverables: [
+          'Projetos práticos de ecoeficiência industrial, reuso de água, energia e economia circular',
+          'Inventário completo de emissões GEE (GHG Protocol) com metas factíveis de descarbonização',
+          'Homologação socioambiental da cadeia crítica de fornecedores B2B',
+          'Capacitação hands-on das equipas internas para sustentar os indicadores no longo prazo'
+        ],
+        kpis: 'Payback claro por iniciativa · Redução de intensidade carbónica · Eficiência operacional'
+      },
+      {
+        code: '03',
+        title: 'Desbloqueio de Crédito Verde & Relatórios para Investidores',
+        horizon: 'Estruturação de dossiê em 30 a 45 dias',
+        summary: 'Preparamos toda a arquitetura de dados e governança exigida por bancos e fundos de investimento para liberar aportes financeiros e linhas de Crédito Verde com taxas competitivas.',
+        deliverables: [
+          'Dossiê de elegibilidade ESG para bancos de fomento, bancos privados e fundos',
+          'Modelagem de KPIs e metas SPTs (Sustainability Performance Targets) para linhas verdes',
+          'Preparação para due diligence socioambiental em rodadas de M&A ou emissão de dívida',
+          'Relatório executivo de impacto e retorno para acionistas e comités de crédito'
+        ],
+        kpis: 'Acesso a linhas verdes · Redução potencial do custo de capital · Atração de investidores'
+      },
+      {
+        code: '04',
+        title: 'Governança, Compliance Regulatório & Frameworks Globais (GRI, SASB, ISSB)',
+        horizon: 'Ciclo completo de reporte e asseguração',
+        summary: 'Atualização permanente frente às métricas internacionais para blindar sua reputação contra acusações de greenwashing e atender reguladores e grandes contas globais.',
+        deliverables: [
+          'Matriz de Dupla Materialidade (impacto socioambiental + materialidade financeira)',
+          'Elaboração de Relatório de Sustentabilidade alinhado aos padrões GRI e SASB setorial',
+          'Adequação às normas internacionais ISSB (IFRS S1 e IFRS S2) e Resolução CVM 193',
+          'Estruturação de Data Book rastreável pronto para auditoria / asseguração externa'
+        ],
+        kpis: '100% de lastro documental · Zero Greenwashing · Conformidade regulatória global'
+      }
+    ];
+
+    function openSolutionModal(idx) {
+      const item = solutionsCatalog[idx];
+      const modal = document.getElementById('solution-modal');
+      const body = document.getElementById('solution-modal-body');
+      if (!item || !modal || !body) return;
+
+      body.innerHTML = `
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <span class="px-3 py-1 rounded-full text-xs font-display font-extrabold bg-proverde-400/20 text-proverde-300 border border-proverde-300/35">
+            SOLUÇÃO ${item.code} · METODOLOGIA PROVERDE
+          </span>
+          <span class="text-xs text-silver-400 font-medium">${item.horizon}</span>
+        </div>
+        <h3 id="sol-modal-title" class="font-display text-2xl sm:text-3xl font-extrabold text-white leading-tight">${item.title}</h3>
+        <p class="text-sm sm:text-base text-silver-200 leading-relaxed">${item.summary}</p>
+        <div class="space-y-2.5 pt-1">
+          <p class="text-xs font-display font-extrabold uppercase tracking-widest text-proverde-300">Entregáveis Tangíveis (Hands-On)</p>
+          <ul class="space-y-2">
+            ${item.deliverables.map(d => `
+              <li class="flex items-start gap-2.5 text-sm text-silver-100">
+                <span class="w-5 h-5 rounded-full bg-proverde-400/25 text-proverde-300 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">✓</span>
+                <span>${d}</span>
+              </li>
+            `).join('')}
+          </ul>
+        </div>
+        <div class="p-4 rounded-2xl bg-obsidian-950/80 border border-proverde-300/25 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <p class="text-[10px] uppercase tracking-widest text-silver-400 font-bold">KPIs Monitorados</p>
+            <p class="text-xs sm:text-sm font-semibold text-proverde-200 mt-0.5">${item.kpis}</p>
+          </div>
+          <a href="#contato" onclick="closeSolutionModal(); preselectChallenge(${idx})" class="btn-pv-primary px-5 py-2.5 text-xs shrink-0">
+            <span>Solicitar esta Solução</span>
+          </a>
+        </div>
+      `;
+
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      initIcons();
+    }
+
+    function closeSolutionModal() {
+      const modal = document.getElementById('solution-modal');
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+    }
+
+    function preselectChallenge(idx) {
+      const select = document.getElementById('f-desafio');
+      if (select && select.options[idx]) {
+        select.selectedIndex = idx;
+      }
+    }
+
+    /* ==========================================================================
+       6. FILTRO DE COMPROMISSOS (TODOS | E | S | G)
+       ========================================================================== */
+    function filterEsgAxis(axis) {
+      document.querySelectorAll('.axis-btn').forEach((btn) => {
+        const active = btn.getAttribute('data-axis-btn') === axis;
+        btn.className = active
+          ? 'axis-btn px-4 py-2 rounded-xl font-display font-bold text-xs bg-gradient-to-r from-proverde-400 to-proverde-300 text-obsidian-950 transition-all'
+          : 'axis-btn px-4 py-2 rounded-xl font-display font-bold text-xs text-silver-200 hover:text-white transition-all';
+      });
+
+      document.querySelectorAll('[data-axis-card]').forEach((card) => {
+        const cardAxis = card.getAttribute('data-axis-card');
+        card.classList.toggle('hidden', axis !== 'all' && cardAxis !== axis);
+      });
+    }
+
+    /* ==========================================================================
+       7. SIMULADOR INTERATIVO DE MATURIDADE & PRONTIDÃO ESG
+       ========================================================================== */
+    let selectedCompanyTier = 'Média Empresa';
+
+    function setSimCompanyTier(tier) {
+      selectedCompanyTier = tier;
+      document.querySelectorAll('.tier-btn').forEach((btn) => {
+        const active = btn.getAttribute('data-tier') === tier;
+        btn.className = active
+          ? 'tier-btn py-2.5 px-3.5 rounded-xl font-display font-bold text-xs bg-pine-900 text-proverde-300 border border-proverde-400/40 transition-all'
+          : 'tier-btn py-2.5 px-3.5 rounded-xl font-display font-bold text-xs bg-white/80 text-slate-700 border border-slate-300/70 hover:border-proverde-500 transition-all';
+      });
+      recalcSimulator();
+    }
+
+    function applySimPreset(v1, v2, v3, v4) {
+      document.getElementById('slider-escassez').value = v1;
+      document.getElementById('slider-gov').value = v2;
+      document.getElementById('slider-credito').value = v3;
+      document.getElementById('slider-normas').value = v4;
+      recalcSimulator();
+      showToast('Perfil de simulação carregado!');
+    }
+
+    function recalcSimulator() {
+      const v1 = parseInt(document.getElementById('slider-escassez').value, 10) || 0;
+      const v2 = parseInt(document.getElementById('slider-gov').value, 10) || 0;
+      const v3 = parseInt(document.getElementById('slider-credito').value, 10) || 0;
+      const v4 = parseInt(document.getElementById('slider-normas').value, 10) || 0;
+
+      document.getElementById('lbl-slider-escassez').textContent = `${v1}%`;
+      document.getElementById('lbl-slider-gov').textContent = `${v2}%`;
+      document.getElementById('lbl-slider-credito').textContent = `${v3}%`;
+      document.getElementById('lbl-slider-normas').textContent = `${v4}%`;
+
+      document.getElementById('bar-txt-1').textContent = `${v1}%`;
+      document.getElementById('bar-fill-1').style.width = `${v1}%`;
+      document.getElementById('bar-txt-2').textContent = `${v2}%`;
+      document.getElementById('bar-fill-2').style.width = `${v2}%`;
+      document.getElementById('bar-txt-3').textContent = `${v3}%`;
+      document.getElementById('bar-fill-3').style.width = `${v3}%`;
+      document.getElementById('bar-txt-4').textContent = `${v4}%`;
+      document.getElementById('bar-fill-4').style.width = `${v4}%`;
+
+      const score = Math.round(v1 * 0.28 + v2 * 0.24 + v3 * 0.24 + v4 * 0.24);
+      document.getElementById('sim-total-pct').textContent = String(score);
+
+      const circumference = 314.16;
+      const offset = circumference - (score / 100) * circumference;
+      const circle = document.getElementById('sim-gauge-circle');
+      if (circle) {
+        circle.style.strokeDashoffset = String(offset);
+        circle.style.stroke = score < 40 ? '#FBBF24' : score < 72 ? '#4CE8D4' : '#57E2CC';
+      }
+
+      const pill = document.getElementById('sim-status-pill');
+      const title = document.getElementById('sim-diag-title');
+      const desc = document.getElementById('sim-diag-desc');
+      const action = document.getElementById('sim-priority-action');
+
+      // Identifica o eixo mais vulnerável para recomendação cirúrgica
+      const axes = [
+        { name: 'Gestão de Escassez & Recursos', val: v1, rec: 'Iniciar pelo Pilar 01 (Diagnóstico Rápido de 15 dias) para estancar gargalos operacionais e converter perdas em margem.' },
+        { name: 'Governança & Controles', val: v2, rec: 'Estruturar governança transparente e metas auditáveis com equipes internas para blindar a operação contra greenwashing.' },
+        { name: 'Prontidão p/ Crédito Verde', val: v3, rec: 'Modelar dossiê ESG e metas SPTs (Pilar 03) para destravar linhas de Crédito Verde e financiamentos com menor custo de capital.' },
+        { name: 'Conformidade GRI / SASB / ISSB', val: v4, rec: 'Adequar relatórios às normas GRI, SASB e ISSB/IFRS S1-S2 (Pilar 04) para atender bancos, investidores e grandes clientes.' }
+      ].sort((a, b) => a.val - b.val);
+
+      if (score < 40) {
+        pill.textContent = 'Alerta · Vulnerabilidade';
+        pill.className = 'px-3 py-1 rounded-full text-xs font-display font-bold bg-amber-400/20 text-amber-300 border border-amber-400/40';
+        title.textContent = `Prioridade de reversão de escassez e blindagem para ${selectedCompanyTier}`;
+        desc.textContent = 'A operação apresenta exposição elevada a riscos regulatórios, encarecimento de insumos ou restrição a linhas de crédito sustentável.';
+      } else if (score < 72) {
+        pill.textContent = 'Estruturação Tática';
+        pill.className = 'px-3 py-1 rounded-full text-xs font-display font-bold bg-proverde-400/20 text-proverde-300 border border-proverde-300/35';
+        title.textContent = `Oportunidade clara de ganho competitivo e captação para ${selectedCompanyTier}`;
+        desc.textContent = 'Sua empresa já possui bases importantes, mas precisa integrar métricas auditáveis para capturar retorno financeiro e Crédito Verde.';
+      } else {
+        pill.textContent = 'Liderança & Expansão';
+        pill.className = 'px-3 py-1 rounded-full text-xs font-display font-bold bg-emerald-400/20 text-emerald-200 border border-emerald-300/40';
+        title.textContent = `Alta maturidade estratégica para liderança setorial (${selectedCompanyTier})`;
+        desc.textContent = 'Excelente prontidão para asseguração independente IFRS S1/S2, captação sofisticada e posicionamento institucional de referência.';
+      }
+
+      action.textContent = `Eixo prioritário detectado (${axes[0].name} — ${axes[0].val}%): ${axes[0].rec}`;
+    }
+
+    function transferDiagnosisToForm() {
+      const v1 = document.getElementById('slider-escassez').value;
+      const v2 = document.getElementById('slider-gov').value;
+      const v3 = document.getElementById('slider-credito').value;
+      const v4 = document.getElementById('slider-normas').value;
+      const total = document.getElementById('sim-total-pct').textContent;
+      const priority = document.getElementById('sim-priority-action').textContent;
+
+      const porteSelect = document.getElementById('f-porte');
+      if (porteSelect) {
+        for (let i = 0; i < porteSelect.options.length; i++) {
+          if (porteSelect.options[i].value === selectedCompanyTier) {
+            porteSelect.selectedIndex = i;
+            break;
+          }
+        }
+      }
+
+      const resumoField = document.getElementById('f-resumo');
+      if (resumoField) {
+        resumoField.value =
+          `[Índice de Resiliência ProVerde: ${total}% | Porte: ${selectedCompanyTier}]\n` +
+          `• Escassez & Recursos: ${v1}% | Governança: ${v2}% | Crédito Verde: ${v3}% | GRI/SASB/ISSB: ${v4}%\n` +
+          `• Diagnóstico: ${priority}\n\n` +
+          `Solicito contacto de um especialista sênior da ProVerde para avaliar nosso plano de ação.`;
+      }
+
+      document.getElementById('contato').scrollIntoView({ behavior: 'smooth' });
+      showToast('Diagnóstico preenchido automaticamente no formulário!');
+    }
+
+    /* ==========================================================================
+       8. FORMULÁRIO B2B, NEWSLETTER, FAQ & OBSERVERS
+       ========================================================================== */
+    function toggleFaqItem(idx) {
+      for (let i = 0; i < 2; i++) {
+        const ans = document.getElementById(`faq-ans-${i}`);
+        const chev = document.getElementById(`faq-chevron-${i}`);
+        if (!ans || !chev) continue;
+        if (i === idx) {
+          const opening = ans.classList.contains('hidden');
+          ans.classList.toggle('hidden', !opening);
+          chev.style.transform = opening ? 'rotate(180deg)' : 'rotate(0deg)';
+        } else {
+          ans.classList.add('hidden');
+          chev.style.transform = 'rotate(0deg)';
+        }
+      }
+    }
+
+   const PROVERDE_GATEWAY_EMAIL = "executivoProVerde@gmail.com";
+const PROVERDE_GATEWAY_URL = `https://formsubmit.co/ajax/${PROVERDE_GATEWAY_EMAIL}`;
+
+async function submitExecutiveForm(event) {
+  event.preventDefault();
+
+  // Bloqueio silencioso de bots (honeypot)
+  const honey = document.getElementById("f-honey");
+  if (honey && honey.value.trim() !== "") return;
+
+  const fields = [
+    { id: "f-nome", err: "err-f-nome", check: (v) => v.trim().length >= 3 },
+    { id: "f-cargo", err: "err-f-cargo", check: (v) => v.trim().length >= 2 },
+    { id: "f-empresa", err: "err-f-empresa", check: (v) => v.trim().length >= 2 },
+    { id: "f-email", err: "err-f-email", check: (v) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()) },
+    { id: "f-resumo", err: "err-f-resumo", check: (v) => v.trim().length >= 10 }
+  ];
+
+  let isValid = true;
+  fields.forEach(({ id, err, check }) => {
+    const input = document.getElementById(id);
+    const errEl = document.getElementById(err);
+    const ok = check(input.value);
+
+    errEl.classList.toggle("hidden", ok);
+    input.classList.toggle("border-rose-500", !ok);
+    if (!ok) isValid = false;
+  });
+
+  if (!isValid) return;
+
+  const btnSubmit = document.getElementById("btn-submit-exec");
+  const btnLabel = document.getElementById("btn-submit-label");
+  const errorBox = document.getElementById("form-gateway-error");
+
+  const nome = document.getElementById("f-nome").value.trim();
+  const cargo = document.getElementById("f-cargo").value.trim();
+  const empresa = document.getElementById("f-empresa").value.trim();
+  const email = document.getElementById("f-email").value.trim();
+  const porte = document.getElementById("f-porte").value;
+  const desafio = document.getElementById("f-desafio").value;
+  const resumo = document.getElementById("f-resumo").value.trim();
+
+  const ano = new Date().getFullYear();
+  const protocolo = `PV-${ano}-${Math.floor(1000 + Math.random() * 9000)}`;
+
+  // Estado de carregamento
+  errorBox.classList.add("hidden");
+  btnSubmit.disabled = true;
+  btnLabel.textContent = "Enviando para Mesa Executiva...";
+
+  try {
+    const response = await fetch(PROVERDE_GATEWAY_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify({
+        _subject: `[ProVerde B2B] Diagnóstico Executivo — ${empresa} (${protocolo})`,
+        _replyto: email,
+        _template: "table",
+        _captcha: "false",
+        Protocolo: protocolo,
+        Nome: nome,
+        Cargo: cargo,
+        Empresa: empresa,
+        Email_Corporativo: email,
+        Porte: porte,
+        Desafio_Principal: desafio,
+        Resumo_Demanda: resumo
+      })
+    });
+
+    const data = await response.json();
+
+    if (!response.ok || data.success === "false") {
+      throw new Error(data.message || "Falha ao processar o gateway de envio.");
+    }
+
+    document.getElementById("protocol-code").textContent = protocolo;
+    document.getElementById("executive-form").classList.add("hidden");
+    document.getElementById("form-confirmation").classList.remove("hidden");
+  } catch (err) {
+    console.error("Erro no gateway ProVerde:", err);
+
+    // Fallback com mailto preenchido para nunca perder um lead
+    const mailtoBody = encodeURIComponent(
+      `Protocolo: ${protocolo}\nNome: ${nome}\nCargo: ${cargo}\nEmpresa: ${empresa}\nE-mail: ${email}\nPorte: ${porte}\nDesafio: ${desafio}\n\nResumo:\n${resumo}`
+    );
+    const mailtoHref = `mailto:${PROVERDE_GATEWAY_EMAIL}?subject=${encodeURIComponent(`[ProVerde B2B] ${empresa} (${protocolo})`)}&body=${mailtoBody}`;
+
+    errorBox.innerHTML = `
+      Não foi possível concluir o envio automático agora. Verifique sua conexão ou
+      <a href="${mailtoHref}" class="underline font-bold text-rose-800">clique aqui para abrir diretamente no seu e-mail</a>.
+    `;
+    errorBox.classList.remove("hidden");
+  } finally {
+    btnSubmit.disabled = false;
+    btnLabel.textContent = "Confirmar Solicitação Executiva";
+  }
+}
+
+function resetExecutiveForm() {
+  const form = document.getElementById("executive-form");
+  form.reset();
+  form.classList.remove("hidden");
+  document.getElementById("form-confirmation").classList.add("hidden");
+  document.getElementById("form-gateway-error").classList.add("hidden");
+}
+
+    function submitNewsletter(e) {
+      e.preventDefault();
+      const input = document.getElementById('news-email');
+      const msg = document.getElementById('news-msg');
+      if (!input || !input.value.includes('@')) return;
+      msg.textContent = `✓ E-mail ${input.value} cadastrado no Boletim Executivo ProVerde.`;
+      msg.classList.remove('hidden');
+      input.value = '';
+      showToast('Inscrição confirmada no Boletim ProVerde!');
+    }
+
+    function runCounters() {
+      document.querySelectorAll('.counter-num').forEach((el) => {
+        if (el.dataset.done === '1') return;
+        el.dataset.done = '1';
+        const target = parseInt(el.getAttribute('data-target') || '0', 10);
+        const start = performance.now();
+        const duration = 1400;
+
+        function tick(now) {
+          const p = Math.min(1, (now - start) / duration);
+          const ease = 1 - Math.pow(1 - p, 3);
+          el.textContent = String(Math.round(target * ease));
+          if (p < 1) requestAnimationFrame(tick);
+          else el.textContent = String(target);
+        }
+        requestAnimationFrame(tick);
+      });
+    }
+
+    // Fechar modal com ESC ou clique externo
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeSolutionModal();
+        closeMegaDropdown();
+      }
+    });
+
+    document.getElementById('solution-modal').addEventListener('click', (e) => {
+      if (e.target.id === 'solution-modal') closeSolutionModal();
+    });
+
+    window.addEventListener('resize', () => {
+      resizeAuroraCanvas();
+      const activeNav = document.querySelector('.nav-item.active-nav') || document.querySelector('.nav-item');
+      if (activeNav) moveNavIndicator(activeNav);
+    });
+
+    // Inicialização completa no window.onload
+    window.onload = function () {
+      injectOfficialFavicon();
+      initIcons();
+      selectHeroSlide(0);
+      recalcSimulator();
+      initHero3DTilt();
+      initAuroraCanvas();
+      animateAuroraCanvas();
+      runCounters();
+
+      // Timer do Carrossel Hero Estilo Suzano
+      setInterval(() => {
+        if (!heroPlaying) return;
+        heroElapsedPct += (HERO_STEP_MS / HERO_INTERVAL_MS) * 100;
+        const bar = document.getElementById(`hero-prog-${currentHeroIdx}`);
+        if (bar) bar.style.width = `${Math.min(100, heroElapsedPct)}%`;
+        if (heroElapsedPct >= 100) {
+          stepHeroSlide(1);
+        }
+      }, HERO_STEP_MS);
+
+      // Hover e Scroll Spy para o Indicador Luminoso da Navbar
+      const navItems = document.querySelectorAll('.nav-item');
+      navItems.forEach((item) => {
+        item.addEventListener('mouseenter', () => moveNavIndicator(item));
+      });
+
+      const sections = ['inicio', 'a-proverde', 'solucoes', 'compromissos', 'simulador', 'contato'];
+      window.addEventListener('scroll', () => {
+        const nav = document.getElementById('main-navbar');
+        if (nav) {
+          nav.classList.toggle('shadow-2xl', window.scrollY > 24);
+          nav.classList.toggle('bg-obsidian-950/95', window.scrollY > 24);
+        }
+
+        let currentSection = 'inicio';
+        sections.forEach((id) => {
+          const sec = document.getElementById(id);
+          if (sec && window.scrollY >= sec.offsetTop - 180) {
+            currentSection = id;
+          }
+        });
+
+        const matchedNav = document.querySelector(`[data-nav-target="${currentSection}"]`);
+        if (matchedNav) {
+          navItems.forEach(n => n.classList.remove('active-nav', 'text-white'));
+          matchedNav.classList.add('active-nav', 'text-white');
+          moveNavIndicator(matchedNav);
+        }
+      });
+
+      // IntersectionObserver para animações suaves de entrada
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12 });
+
+        document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+      } else {
+        document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
+      }
+    };
+  </script>
+</body>
+</html>
